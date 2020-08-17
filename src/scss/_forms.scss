@@ -1,0 +1,75 @@
+.get-started-form {
+  width: 100%;
+  margin: 1em auto;
+}
+
+.get-started-input {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px auto;
+  width: 90%;
+  padding: 15px;
+  color: white !important;
+}
+.form-group-custom {
+  width: 100%;
+}
+.form-group-custom .form-control-custom {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  margin: 30px auto;
+  background: none;
+  border: none;
+  color: white;
+  border-bottom: 1px solid white;
+  &:focus {
+    outline: none;
+  }
+}
+.form-group-custom .form-control-custom::placeholder {
+  color: white;
+  font-weight: bold;
+}
+.get-started-btn-wrapper {
+  padding: 0px 15px;
+  text-align: center;
+
+  @include large-tablet {
+    width: 30%;
+    padding: 0px;
+    background: $warning;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.get-started-btn {
+  width: 80%;
+  padding: 10px 15px;
+
+  background: $warning;
+  font-weight: bold;
+  border: none;
+}
+
+@media (min-width: 992px) {
+  .get-started-input {
+    justify-content: space-between;
+    display: flex;
+    border-left: 5px solid $warning;
+    background: black;
+  }
+  .get-started-form {
+    display: flex;
+    align-items: stretch;
+  }
+  .get-started-btn-wrapper {
+    max-width: 170px;
+  }
+  .form-group-custom {
+    margin-right: 20px;
+  }
+  .form-group-custom .form-control-custom {
+    margin: 0px;
+  }
+}

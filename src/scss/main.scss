@@ -1,0 +1,54 @@
+@import "./font";
+@import "./variables";
+
+$theme-color: (
+  "primary": $primary,
+  "warning": $warning,
+);
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./navbar";
+@import "./jumbotron";
+@import "./forms";
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: $primary;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  min-height: 200vh;
+  background: #252525;
+}
+
+.my-10 {
+  margin: 5em 0em;
+}
+
+.mt-10 {
+  margin: 5em 0em;
+  @include tablet {
+    margin: 12em 0em;
+  }
+}
+
+.margin-responsive {
+  margin-top: 65px;
+  @include large-tablet {
+    margin-top: 0px;
+  }
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}

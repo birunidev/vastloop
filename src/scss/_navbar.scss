@@ -1,0 +1,31 @@
+.custom-navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  transition: 0.4s ease;
+  background: black;
+  z-index: 99;
+
+  .navbar-toggler-icon {
+    background: url("/bars.svg") no-repeat center;
+    background-size: contain;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+
+  @include large-tablet {
+    background: none !important;
+  }
+
+  .nav-link-custom {
+    color: white !important;
+    font-weight: 600;
+  }
+}
+.custom-navbar.scrolled {
+  @include large-tablet {
+    background: black !important;
+  }
+}
