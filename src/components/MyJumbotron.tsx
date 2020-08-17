@@ -4,7 +4,10 @@ export default function MyJumbotron({ background, children }) {
   return (
     <div
       className="custom-jumbotron"
-      style={{ background: `url('${background}')` }}
+      style={{
+        background: `url('${background}') no-repeat`,
+        backgroundSize: "cover",
+      }}
     >
       {children}
     </div>

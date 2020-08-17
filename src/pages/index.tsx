@@ -8,23 +8,42 @@ import Partners from "../components/UI/Partners"
 import { Container } from "react-bootstrap"
 import ExpertiseCards from "../components/UI/ExpertiseCards"
 import WhyChooseCards from "../components/UI/WhyChooseCards"
+import GetStartedSection from "../components/Sections/GetStartedSection"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <VideoBackground video="jumbotron_1.mp4">
-      <h1 className="big-jumbo-text text-center text-gagalin">
+      <h1
+        className="big-jumbo-text text-center text-gagalin"
+        data-sal="slide-up"
+        data-sal-delay="0"
+        data-sal-easing="ease-out"
+        data-sal-duration="1000"
+      >
         We can speed up your{" "}
         <span className="text-warning d-block">Business growth!</span>
       </h1>
-      <p className="jumbo-text-detail text-center mb-0 font-weight-600 my-3">
+      <p
+        className="jumbo-text-detail text-center mb-0 font-weight-600 my-3"
+        data-sal="slide-down"
+        data-sal-delay="1000"
+        data-sal-easing="ease"
+        data-sal-duration="1000"
+      >
         From building unique digital strategies, and tactics to optimizing
         <br /> for the best results, and globally expanding your business.
       </p>
       <div className="text-center my-5">
-        <button className="btn btn-warning font-weight-bold btn-lg trans-scale">
+        <AniLink
+          swipe
+          direction="left"
+          to="about-us"
+          className="btn btn-warning font-weight-bold btn-lg trans-scale"
+        >
           Learn more about us
-        </button>
+        </AniLink>
       </div>
       <GetStarted />
       <Partners />
@@ -43,7 +62,14 @@ const IndexPage = () => (
         <h2 className="text-center font-weight-bold text-gagalin display-4 text-white">
           Our <span className="text-warning">Expertise</span>{" "}
         </h2>
-        <ExpertiseCards />
+        <div
+          data-sal="slide-up"
+          data-sal-delay="0"
+          data-sal-easing="ease"
+          data-sal-duration="1000"
+        >
+          <ExpertiseCards />
+        </div>
       </Container>
     </section>
     <section
@@ -61,6 +87,7 @@ const IndexPage = () => (
         <WhyChooseCards />
       </Container>
     </section>
+    <GetStartedSection />
   </Layout>
 )
 

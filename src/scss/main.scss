@@ -27,7 +27,7 @@ a {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  min-height: 200vh;
+
   background: #252525;
 }
 
@@ -62,4 +62,7 @@ body {
 
 .text-decoaration-none {
   text-decoration: none;
+}
+.line-height-2 {
+  line-height: 1.6 !important;
 }

@@ -4,12 +4,13 @@ import PropTypes from "prop-types"
 import { Navbar, Nav, Container } from "react-bootstrap"
 
 import Media from "react-media"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const navigations = [
   {
     id: "nav-1",
     name: "Home",
-    slug: "home",
+    slug: "",
   },
   {
     id: "nav-2",
@@ -57,35 +58,39 @@ const Header = () => {
         expand="lg"
       >
         <Container>
-          <Navbar.Brand href="#home">
-            <Media
-              queries={{
-                large: "(max-width:992px)",
-              }}
-            >
-              {matches => {
-                return (
-                  <img
-                    src={matches.large ? "logo-white.png" : logo}
-                    width="190"
-                    alt="Vast Loop Logo"
-                  />
-                )
-              }}
-            </Media>
-          </Navbar.Brand>
+          <div className="navbar-brand">
+            <Link to="/">
+              <Media
+                queries={{
+                  large: "(max-width:992px)",
+                }}
+              >
+                {matches => {
+                  return (
+                    <img
+                      src={matches.large ? "/logo-white.png" : `/${logo}`}
+                      width="190"
+                      alt="Vast Loop Logo"
+                    />
+                  )
+                }}
+              </Media>
+            </Link>
+          </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               {navigations.map(nav => {
                 return (
-                  <Link
+                  <AniLink
                     className={`nav-link nav-link-custom mx-3`}
                     to={`/${nav.slug}`}
+                    swipe
+                    top="entry"
                     key={nav.id}
                   >
                     {nav.name}
-                  </Link>
+                  </AniLink>
                 )
               })}
               <button
@@ -99,7 +104,14 @@ const Header = () => {
         </Container>
       </Navbar>
       <Container>
-        <p className=" text-white" style={{ position: "absolute" }}>
+        <p
+          className=" text-white"
+          style={{
+            position: "absolute",
+            transform: "translateY(80px)",
+            zIndex: 9999,
+          }}
+        >
           We Know Your Worth <br />
           Then Add Value
         </p>

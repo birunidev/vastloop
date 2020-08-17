@@ -40,10 +40,20 @@ function WhyChooseCard({ text, icon }) {
 
 export default function WhyChooseCards() {
   return (
-    <Row className="mt-5">
+    <Row className="mt-5 justify-content-between">
       {whychooses.map((choose, index) => {
         return (
-          <Col className="mt-3" md={6} key={index}>
+          <Col
+            className="mt-4"
+            md={5}
+            key={index}
+            data-sal={`${
+              index === 0 || index === 2 ? "slide-right" : "slide-left"
+            }`}
+            data-sal-delay="0"
+            data-sal-easing="ease"
+            data-sal-duration="1000"
+          >
             <WhyChooseCard icon={choose.icon} text={choose.text} />
           </Col>
         )
