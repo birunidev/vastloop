@@ -18,14 +18,19 @@ const IndexPage = () => (
         From building unique digital strategies, and tactics to optimizing
         <br /> for the best results, and globally expanding your business.
       </p>
-      <div className="text-center">
-        <button className="btn btn-warning font-weight-bold btn-lg mb-3">
+      <div className="text-center my-5">
+        <button className="btn btn-warning font-weight-bold btn-lg trans-scale">
           Learn more about us
         </button>
       </div>
       <GetStarted />
       <Partners />
     </VideoBackground>
+    <section className="expertise-bg bg-resposive">
+      <h2 className="font-weight-bold text-gagalin h1">
+        Our <span className="text-warning">Expertise</span>{" "}
+      </h2>
+    </section>
   </Layout>
 )
 
