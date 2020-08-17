@@ -10,7 +10,7 @@ $theme-color: (
 @import "./navbar";
 @import "./jumbotron";
 @import "./forms";
-
+@import "./cards";
 * {
   box-sizing: border-box;
 }
@@ -58,4 +58,8 @@ body {
   &:hover {
     transform: scale(1.05);
   }
+}
+
+.text-decoaration-none {
+  text-decoration: none;
 }

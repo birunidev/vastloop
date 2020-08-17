@@ -5,6 +5,13 @@
   background-repeat: no-repeat;
 }
 
+.bg-resposive {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
 .video-container {
   position: relative;
   background-color: black;

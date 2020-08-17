@@ -5,6 +5,9 @@ import SEO from "../components/seo"
 import GetStarted from "./../components/Forms/GetStarted"
 import VideoBackground from "../components/UI/VideoBackground"
 import Partners from "../components/UI/Partners"
+import { Container } from "react-bootstrap"
+import ExpertiseCards from "../components/UI/ExpertiseCards"
+import WhyChooseCards from "../components/UI/WhyChooseCards"
 
 const IndexPage = () => (
   <Layout>
@@ -26,10 +29,37 @@ const IndexPage = () => (
       <GetStarted />
       <Partners />
     </VideoBackground>
-    <section className="expertise-bg bg-resposive">
-      <h2 className="font-weight-bold text-gagalin h1">
-        Our <span className="text-warning">Expertise</span>{" "}
-      </h2>
+
+    <section
+      className="bg-resposive"
+      style={{
+        backgroundImage: "url('/expertise.jpg')",
+        padding: "100px 0px 150px",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <Container>
+        <h2 className="text-center font-weight-bold text-gagalin display-4 text-white">
+          Our <span className="text-warning">Expertise</span>{" "}
+        </h2>
+        <ExpertiseCards />
+      </Container>
+    </section>
+    <section
+      style={{
+        backgroundImage: "url('/why-choose-us.jpg')",
+        padding: "100px 0px 150px",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
+      <Container>
+        <h3 className="text-center font-weight-bold text-gagalin display-4 text-white">
+          Why <span className="text-warning">Choose us</span> ?
+        </h3>
+        <WhyChooseCards />
+      </Container>
     </section>
   </Layout>
 )
