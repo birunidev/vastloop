@@ -1,13 +1,10 @@
 import React from "react"
 import Media from "react-media"
+import { GLOBAL_MEDIA_QUERIES } from "./../layout"
 
 export default function BlurbCheck({ img, text }) {
   return (
-    <Media
-      queries={{
-        medium: "(min-width: 768px)",
-      }}
-    >
+    <Media queries={GLOBAL_MEDIA_QUERIES}>
       {matches => {
         return (
           <div className="blurb-check d-md-flex flex-md-row-reverse justify-content-between align-items-center mt-5 mx-auto">
@@ -16,16 +13,14 @@ export default function BlurbCheck({ img, text }) {
             </div>
             <p
               className={`text-check text-white ${
-                matches.medium ? "text-justify" : "centered-justify"
-              } font-weight-600 h4 w-75 mt-5 mx-auto`}
+                matches.large
+                  ? "h4 w-50 line-height-2"
+                  : matches.medium
+                  ? "text-justify h4"
+                  : "w-75 center-justified h5"
+              } font-weight-600  mt-5 mx-auto`}
             >
-              {text}{" "}
-              <img
-                style={{ transform: "translateY(-5px)" }}
-                src="/check.svg"
-                width="50"
-                alt="Check icon"
-              />
+              {text}
             </p>
           </div>
         )

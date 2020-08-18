@@ -12,6 +12,12 @@ import Header from "./header"
 import "../scss/main.scss"
 import Footer from "./Footer"
 
+export const GLOBAL_MEDIA_QUERIES = {
+  small: "(min-width:480px)",
+  medium: "(min-width:768px)",
+  large: "(min-width: 992px)",
+}
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

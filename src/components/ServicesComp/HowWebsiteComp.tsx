@@ -5,7 +5,7 @@ import { StepCard } from "./StepsComp"
 let data = [
   {
     icon: "touch.svg",
-    title: "We Make It Interactive",
+    title: "We Make It \n Interactive",
     text:
       "Because it takes less than 10 seconds for visitors to decide whether they trust your company just from your website design, our team is capable of designing creative interactive elements to keep the users engaged on your pages.",
   },

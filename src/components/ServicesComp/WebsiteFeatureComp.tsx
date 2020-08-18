@@ -24,7 +24,9 @@ export default function WebsiteFeatureComp() {
     <Row>
       <Col md={12}>
         {data.map((feature, index) => {
-          return <BlurbCheck img={feature.img} text={feature.text} />
+          return (
+            <BlurbCheck img={feature.img} key={index} text={feature.text} />
+          )
         })}
       </Col>
     </Row>

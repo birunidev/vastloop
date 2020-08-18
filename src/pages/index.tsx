@@ -86,7 +86,7 @@ const IndexPage = () => (
       }}
     >
       <Container>
-        <h3 className="text-center font-weight-bold text-gagalin display-4 text-white">
+        <h3 className="text-center font-weight-bold text-gagalin h1 text-white">
           Why <span className="text-warning">Choose us</span> ?
         </h3>
         <WhyChooseCards />
