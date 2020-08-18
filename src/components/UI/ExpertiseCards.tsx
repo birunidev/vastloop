@@ -13,7 +13,7 @@ let expertise = [
     title:
       '<p> <span class="text-warning">website design</span><br/> & development <p>',
     img: "webdev.svg",
-    link: "web-design",
+    link: "web-design-and-development",
   },
   {
     title:
@@ -46,7 +46,7 @@ let expertise = [
   {
     title: '<p> <span class="text-warning">Email </span> <br/> Marketing<p>',
     img: "mail-marketing.svg",
-    link: "mail-marketing",
+    link: "email-marketing",
   },
 ]
 
@@ -76,7 +76,15 @@ export default function ExpertiseCards() {
     <Row className="mt-5">
       {expertise.map((exp, index) => {
         return (
-          <Col md={3} lg={3} key={index}>
+          <Col
+            md={3}
+            lg={3}
+            key={index}
+            data-sal="slide-up"
+            data-sal-delay="0"
+            data-sal-easing="ease"
+            data-sal-duration="1000"
+          >
             {" "}
             <ExpertiseCard title={exp.title} img={exp.img} link={exp.link} />
           </Col>

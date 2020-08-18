@@ -41,6 +41,10 @@ const IndexPage = () => (
           direction="left"
           to="about-us"
           className="btn btn-warning font-weight-bold btn-lg trans-scale"
+          data-sal="zoom-in"
+          data-sal-delay="2000"
+          data-sal-easing="ease"
+          data-sal-duration="1000"
         >
           Learn more about us
         </AniLink>
@@ -59,15 +63,16 @@ const IndexPage = () => (
       }}
     >
       <Container>
-        <h2 className="text-center font-weight-bold text-gagalin display-4 text-white">
-          Our <span className="text-warning">Expertise</span>{" "}
-        </h2>
-        <div
+        <h2
+          className="text-center font-weight-bold text-gagalin display-4 text-white"
           data-sal="slide-up"
           data-sal-delay="0"
           data-sal-easing="ease"
           data-sal-duration="1000"
         >
+          Our <span className="text-warning">Expertise</span>{" "}
+        </h2>
+        <div>
           <ExpertiseCards />
         </div>
       </Container>

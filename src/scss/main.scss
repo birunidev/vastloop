@@ -66,3 +66,20 @@ body {
 .line-height-2 {
   line-height: 1.6 !important;
 }
+
+.center-justified {
+  text-align: justify;
+  text-align-last: center;
+  // word-break: break-all;
+}
+
+.text-white-hover {
+  transition: 0.4s ease;
+  &:hover {
+    color: white !important;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

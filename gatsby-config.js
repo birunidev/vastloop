@@ -29,7 +29,12 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-scroll-reveal`,
+    {
+      resolve: `gatsby-plugin-scroll-reveal`,
+      options: {
+        once: false,
+      },
+    },
     `gatsby-plugin-transition-link`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

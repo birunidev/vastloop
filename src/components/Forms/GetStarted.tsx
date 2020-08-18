@@ -2,7 +2,13 @@ import React from "react"
 
 export default function GetStarted() {
   return (
-    <form className="get-started-form">
+    <form
+      className="get-started-form"
+      data-sal="zoom-in"
+      data-sal-delay="2000"
+      data-sal-easing="ease"
+      data-sal-duration="2000"
+    >
       <div className="get-started-input">
         <div className="form-group-custom">
           <input className="form-control-custom" placeholder="YOUR NAME" />

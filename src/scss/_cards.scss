@@ -33,3 +33,35 @@
 .why-choose-card {
   margin: 10px 0px;
 }
+
+.step-blurb {
+  &__img {
+    width: 80px;
+    margin: 0px auto;
+    img {
+      width: 100%;
+    }
+  }
+
+  &__detail {
+    p:first-child {
+      white-space: pre-line;
+    }
+  }
+}
+
+.blurb-check {
+  &__img {
+    max-width: 100px;
+    img {
+      width: 100%;
+    }
+  }
+  .text-check {
+    &::after {
+      content: "";
+      position: relative;
+      background-image: url("/check.svg");
+    }
+  }
+}
