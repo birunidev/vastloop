@@ -73,3 +73,80 @@
     margin: 0px;
   }
 }
+
+.contact-form-custom {
+  .form-wrapper {
+    width: 90%;
+    margin: 35px auto;
+
+    &__control {
+      display: flex;
+
+      label {
+        display: block;
+        max-width: 25px;
+        margin-right: 1em;
+        img {
+          width: 100%;
+        }
+      }
+
+      .error-input {
+        border-bottom: 1px solid $warning;
+      }
+
+      input,
+      textarea,
+      select {
+        width: 100%;
+        display: block;
+        border: none;
+        background: none;
+        color: white;
+        font-weight: 500;
+        border-bottom: 1px solid white;
+
+        option {
+          color: black;
+          font-weight: 500;
+          width: 100%;
+        }
+        &:focus {
+          outline: none;
+        }
+        &::placeholder {
+          color: white;
+          font-weight: 600;
+        }
+      }
+      select {
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  button {
+    margin: 10px auto;
+    width: 80%;
+    @include tablet {
+      width: 90%;
+    }
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  // border-bottom: 1px solid white;
+  // -webkit-text-fill-color: white;
+  // -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  // transition: background-color 5000s ease-in-out 0s;
+}

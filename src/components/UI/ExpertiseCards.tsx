@@ -2,7 +2,7 @@ import React from "react"
 import { Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
 
-let expertise = [
+export let expertise = [
   {
     title:
       '<p> <span class="text-warning">Brand Strategy</span> Implementation<p>',

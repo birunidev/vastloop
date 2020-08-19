@@ -24,8 +24,8 @@ const navigations = [
   },
   {
     id: "nav-4",
-    name: "Blog",
-    slug: "blog",
+    name: "Contact us",
+    slug: "contact",
   },
 ]
 
@@ -85,7 +85,6 @@ const Header = () => {
                   <AniLink
                     className={`nav-link nav-link-custom mx-3`}
                     to={`/${nav.slug}`}
-                    swipe
                     top="entry"
                     key={nav.id}
                   >

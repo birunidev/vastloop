@@ -42,7 +42,14 @@ let steps = [
 
 export function StepCard({ icon, title, text, maxWidth }) {
   return (
-    <div className="step-blurb mx-auto my-4" style={{ maxWidth: maxWidth }}>
+    <div
+      className="step-blurb mx-auto my-5"
+      style={{ maxWidth: maxWidth }}
+      data-sal="fade"
+      data-sal-delay="0"
+      data-sal-easing="ease-out"
+      data-sal-duration="1000"
+    >
       <div className="step-blurb__img trans-scale cursor-pointer">
         <img src={`/${icon}`} alt={text + " icon"} />
       </div>

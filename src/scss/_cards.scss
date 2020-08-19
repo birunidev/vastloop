@@ -35,6 +35,12 @@
 }
 
 .step-blurb {
+  &:hover {
+    cursor: pointer;
+    p:first-child {
+      color: white !important;
+    }
+  }
   &__img {
     width: 80px;
     margin: 0px auto;
@@ -46,6 +52,11 @@
   &__detail {
     p:first-child {
       white-space: pre-line;
+      transition: 0.4s ease;
+
+      &:hover .step-blurb__img {
+        transform: scale(1.05);
+      }
     }
   }
 }
@@ -65,8 +76,8 @@
     width: 25px;
     height: 25px;
     @include tablet {
-      width: 35px;
-      height: 35px;
+      width: 30px;
+      height: 30px;
     }
     @include large-tablet {
       width: 40px;
@@ -137,6 +148,55 @@
   .text-check::after {
     @include large-tablet {
       transform: translateY(-10px);
+    }
+  }
+}
+
+.blurbcommerce {
+  &__detail {
+    .title {
+      white-space: pre-line;
+    }
+  }
+
+  &:hover {
+    p:first-child {
+      color: white !important;
+    }
+  }
+  p:first-child {
+    transition: 0.4s ease;
+  }
+
+  .text-check::after {
+    @include tablet {
+      transform: translateY(-5px);
+    }
+    @include large-tablet {
+      transform: translateY(-8px);
+    }
+  }
+}
+
+.social-follow {
+  &:hover {
+    .social-follow-img {
+      img {
+        transform: scale(1.5);
+      }
+    }
+    p:first-child {
+      color: white !important;
+    }
+  }
+
+  .social-follow-img {
+    max-width: 60px;
+    height: 90px;
+    margin: 0px auto;
+    img {
+      transition: 0.4s ease;
+      width: 100%;
     }
   }
 }

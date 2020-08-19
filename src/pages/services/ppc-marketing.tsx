@@ -6,12 +6,18 @@ import PPCComp from "./../../components/ServicesComp/PPCComp"
 import PPCReportComp from "./../../components/ServicesComp/PPCReportComp"
 import Media from "react-media"
 import { GLOBAL_MEDIA_QUERIES } from "../../components/layout"
+import SEO from "../../components/seo"
+import { Link } from "gatsby"
 
 export default function ppcMarketing() {
   return (
     <Media queries={GLOBAL_MEDIA_QUERIES}>
       {matches => (
         <Layout>
+          <SEO
+            title="Pay Per Click Marketing"
+            description="Whatever platform you advertise on , we will put your Ad in front of people who are most likely to be interested in your products or services. What we do : Vast loop uses PPC to allow brands get fast returs on investment (ROI). We have experts who can create campaigns in Google Ads, Bing Ads, social media, and more."
+          />
           <MyJumbotron background="/ppc-bg.jpg">
             <Container>
               <h1
@@ -22,6 +28,10 @@ export default function ppcMarketing() {
                     ? "display-4"
                     : "h1"
                 } mt-n3 mb-5 text-warning text-gagalin text-center`}
+                data-sal="slide-up"
+                data-sal-delay="0"
+                data-sal-easing="ease-out"
+                data-sal-duration="1000"
               >
                 Pay Per Click Marketing
               </h1>
@@ -29,21 +39,43 @@ export default function ppcMarketing() {
                 className={`${
                   matches.large ? "h1" : "h4"
                 } my-4 text-gagalin text-white text-center`}
+                data-sal="slide-down"
+                data-sal-delay="1000"
+                data-sal-easing="ease-out"
+                data-sal-duration="1000"
               >
                 Whatever platform you advertise on , we will put your Ad in
                 front of people who are most likely to be interested in your
                 products or services.
               </p>
-              <p className="h3 font-weight-bold mt-5 text-center text-white">
+              <p
+                className="h3 font-weight-bold mt-5 text-center text-white"
+                data-sal="fade"
+                data-sal-delay="0"
+                data-sal-easing="ease-out"
+                data-sal-duration="1000"
+              >
                 What we do
               </p>
-              <div className="text-center mt-4">
+              <div
+                className="text-center mt-4"
+                data-sal="slide-up"
+                data-sal-delay="0"
+                data-sal-easing="ease-out"
+                data-sal-duration="1000"
+              >
                 <img
                   src="/big-companies.svg"
                   alt="Big Companies Logo"
                   className="mx-auto"
                 />
-                <p className="h5 mt-3 line-height-2 text-white  center-justified w-75 mx-auto">
+                <p
+                  className="h5 mt-3 line-height-2 text-white  center-justified w-75 mx-auto"
+                  data-sal="slide-up"
+                  data-sal-delay="1000"
+                  data-sal-easing="ease-out"
+                  data-sal-duration="1000"
+                >
                   Vast loop uses PPC to allow brands get fast returs on
                   investment (ROI). We have experts who can create campaigns in
                   Google Ads, Bing Ads, social media, and more.
@@ -60,7 +92,13 @@ export default function ppcMarketing() {
             }}
           >
             <Container>
-              <h2 className="text-center font-weight-bold text-gagalin h1 text-white">
+              <h2
+                className="text-center font-weight-bold text-gagalin h1 text-white"
+                data-sal="slide-up"
+                data-sal-delay="0"
+                data-sal-easing="ease-out"
+                data-sal-duration="1000"
+              >
                 Our <span className="text-warning">PPC</span> Services
               </h2>
               <PPCComp />
@@ -75,11 +113,23 @@ export default function ppcMarketing() {
             }}
           >
             <Container>
-              <h3 className="text-center font-weight-bold text-gagalin h1 text-white">
+              <h3
+                className="text-center font-weight-bold text-gagalin h1 text-white"
+                data-sal="zoom-in"
+                data-sal-delay="0"
+                data-sal-easing="ease-out"
+                data-sal-duration="1000"
+              >
                 Our approach to{" "}
                 <span className="text-warning">PPC reporting</span>
               </h3>
-              <p className="h5 font-weight-600 text-center text-white mt-4">
+              <p
+                className="h5 font-weight-600 text-center text-white mt-4"
+                data-sal="slide-down"
+                data-sal-delay="500"
+                data-sal-easing="ease-out"
+                data-sal-duration="1000"
+              >
                 You can clearly see how our efforts are increasing your{" "}
                 <span className="d-lg-block">
                   online revenue with our custom reports and client dashboard.
@@ -87,13 +137,12 @@ export default function ppcMarketing() {
               </p>
               <PPCReportComp />
               <div className="text-center mt-4">
-                <Button
-                  variant="warning"
-                  size="lg"
-                  className="font-weight-bold trans-scale"
+                <Link
+                  to="/contact"
+                  className="btn btn-lg btn-warning font-weight-bold trans-scale"
                 >
                   Get Started
-                </Button>
+                </Link>
               </div>
             </Container>
           </section>

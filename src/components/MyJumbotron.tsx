@@ -7,6 +7,7 @@ export default function MyJumbotron({ background, children }) {
       style={{
         background: `url('${background}') no-repeat`,
         backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       {children}

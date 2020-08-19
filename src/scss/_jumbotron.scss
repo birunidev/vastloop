@@ -19,7 +19,11 @@
 .video-container {
   position: relative;
   background-color: black;
-  min-height: 120vh;
+  min-height: 70vh;
+
+  @include large-tablet {
+    min-height: 40vh;
+  }
   width: 100%;
   overflow: hidden;
 }

@@ -50,15 +50,27 @@ let data = [
 function SeoBlurb({ isEven, icon, lists, detail, title }) {
   return (
     <div
-      style={{ margin: "4em 0em" }}
+      style={{ margin: "5em 0em" }}
       className={`seo-blurb d-lg-flex justify-content-between align-items-center ${
         isEven ? "flex-lg-row-reverse" : null
       }`}
     >
-      <div className="seo-blurb__img mx-auto">
+      <div
+        className="seo-blurb__img mx-auto"
+        data-sal={`${isEven ? "slide-left" : "slide-right"}`}
+        data-sal-delay="0"
+        data-sal-easing="ease-out"
+        data-sal-duration="1000"
+      >
         <img src={`/${icon}`} alt={icon} />
       </div>
-      <div className="seo-blurb__detail text-white text-center text-lg-left">
+      <div
+        className="seo-blurb__detail text-white text-center text-lg-left"
+        data-sal={`${isEven ? "slide-right" : "slide-left"}`}
+        data-sal-delay="0"
+        data-sal-easing="ease-out"
+        data-sal-duration="1000"
+      >
         <p className=" text-warning font-weight-bold seo-blurb__title">
           {title}
         </p>

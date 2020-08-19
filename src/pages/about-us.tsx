@@ -4,6 +4,8 @@ import MyJumbotron from "./../components/MyJumbotron"
 import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
 import Media from "react-media"
+import ExpertiseCards from "../components/UI/ExpertiseCards"
+import SEO from "../components/seo"
 
 export default function aboutUs() {
   return (
@@ -15,6 +17,10 @@ export default function aboutUs() {
       {matches => {
         return (
           <Layout>
+            <SEO
+              title="About Us"
+              description="We make you different, unique, and identifiable by others. Why Choose us ? Cost effective : you can have access to a full team of professionals. ..."
+            />
             <MyJumbotron background="/about-us-swipe.jpg">
               <Container>
                 <h1
@@ -115,7 +121,13 @@ export default function aboutUs() {
                     </div>
                   </Col>
                 </Row>
-                <div className="text-center mt-5">
+                <div
+                  className="text-center mt-5"
+                  data-sal="zoom-in"
+                  data-sal-delay="1000"
+                  data-sal-easing="ease"
+                  data-sal-duration="1000"
+                >
                   <Link
                     to="/services"
                     className="btn btn-warning btn-lg font-weight-600"
@@ -125,6 +137,30 @@ export default function aboutUs() {
                 </div>
               </Container>
             </MyJumbotron>
+            <section
+              className="bg-resposive"
+              style={{
+                backgroundImage: "url('/expertise.jpg')",
+                padding: "100px 0px 150px",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            >
+              <Container>
+                <h2
+                  className="text-center font-weight-bold text-gagalin display-4 text-white"
+                  data-sal="slide-up"
+                  data-sal-delay="0"
+                  data-sal-easing="ease"
+                  data-sal-duration="1000"
+                >
+                  Our <span className="text-warning">Expertise</span>{" "}
+                </h2>
+                <div>
+                  <ExpertiseCards />
+                </div>
+              </Container>
+            </section>
           </Layout>
         )
       }}

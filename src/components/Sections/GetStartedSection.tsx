@@ -17,14 +17,18 @@ export default function GetStartedSection() {
         data-sal-easing="ease"
         data-sal-duration="1000"
       >
-        <h1 className="display-4 text-gagalin">
+        <p className="display-4 text-gagalin">
           Let’s <span className="text-warning">Get Started</span>{" "}
-        </h1>
+        </p>
         <p className="h5 font-weight-600 my-4">
           Looking forward to hearing from you
         </p>
-        <Button size="lg" className="font-weight-600" variant="warning">
-          Call To Action
+        <Button
+          size="lg"
+          className="font-weight-600 trans-scale"
+          variant="warning"
+        >
+          Let's Chat with us
         </Button>
       </Container>
     </div>
