@@ -101,7 +101,7 @@ export default function eCommerce() {
                 <Col
                   md={5}
                   data-sal="slide-right"
-                  data-sal-delay="1000"
+                  data-sal-delay="0"
                   data-sal-easing="ease"
                   data-sal-duration="800"
                 >
@@ -119,7 +119,7 @@ export default function eCommerce() {
                 <Col
                   md={5}
                   data-sal="slide-left"
-                  data-sal-delay="1000"
+                  data-sal-delay="0"
                   data-sal-easing="ease"
                   data-sal-duration="800"
                 >

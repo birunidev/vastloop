@@ -14,7 +14,7 @@ const navigations = [
   },
   {
     id: "nav-2",
-    name: "About Us",
+    name: "About us",
     slug: "about",
   },
   {
