@@ -1,6 +1,8 @@
 import React from "react"
 import { BlurbCommerce } from "../UI/BlurbCommerce"
 import { Row, Col } from "react-bootstrap"
+import { GLOBAL_MEDIA_QUERIES } from "./../layout"
+import Media from "react-media"
 
 let data = [
   {
@@ -91,21 +93,29 @@ let data = [
 
 export default function SocialComp() {
   return (
-    <Row className="mt-5">
-      {data.map((service, index) => {
-        return (
-          <Col md={6} className={index === 6 && "offset-3"} key={index}>
-            <BlurbCommerce
-              icon={service.icon}
-              title={service.title}
-              text={service.text}
-              lists={service.lists}
-              isECommerce={true}
-              maxWidth={260}
-            />
-          </Col>
-        )
-      })}
-    </Row>
+    <Media queries={GLOBAL_MEDIA_QUERIES}>
+      {matches => (
+        <Row className="mt-5">
+          {data.map((service, index) => {
+            return (
+              <Col
+                md={6}
+                className={index === 6 && matches.medium ? "offset-3" : null}
+                key={index}
+              >
+                <BlurbCommerce
+                  icon={service.icon}
+                  title={service.title}
+                  text={service.text}
+                  lists={service.lists}
+                  isECommerce={true}
+                  maxWidth={260}
+                />
+              </Col>
+            )
+          })}
+        </Row>
+      )}
+    </Media>
   )
 }

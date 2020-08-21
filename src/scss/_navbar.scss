@@ -22,10 +22,33 @@
   .nav-link-custom {
     color: white !important;
     font-weight: 600;
+    &:hover {
+      color: $warning !important;
+    }
   }
 }
 .custom-navbar.scrolled {
   @include large-tablet {
     background: black !important;
+  }
+}
+
+.dropdown-toggle {
+  color: white !important;
+  font-weight: 600;
+  &:hover {
+    color: $warning !important;
+  }
+}
+.dropdown-menu.show {
+  background: black !important;
+
+  .dropdown-item {
+    color: white;
+    font-weight: 600;
+    &:hover {
+      background: transparent;
+      color: $warning;
+    }
   }
 }

@@ -16,7 +16,7 @@ export default function socialMediaMarketing() {
             title="Social Media Marketing and Ads"
             description="We create a solid social media campaign to reach your customers where they are and ensure that your brand’s voice is heard"
           />
-          <MyJumbotron background="/e-commerce-bg.jpg">
+          <MyJumbotron background="/social-media-bg.jpg">
             <Container>
               <h1
                 className={`${
@@ -31,7 +31,7 @@ export default function socialMediaMarketing() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                social media marketing
+                social media marketing.
               </h1>
               <p
                 className={`${
@@ -47,23 +47,12 @@ export default function socialMediaMarketing() {
                 l<span className="text-warning">oo</span>p team is made of
                 experts at:
               </p>
-              <p
-                className="h3 font-weight-600 text-white mb-5 text-center"
-                style={{ marginTop: 60 }}
-                data-sal="fade"
-                data-sal-delay="1000"
-                data-sal-easing="ease-out"
-                data-sal-duration="1000"
-              >
-                Our <span className="text-warning">eCommerce</span> developments
-                services team <span className="d-lg-block"></span> will provide
-                you with:
-              </p>
+
               <Row className="justify-content-between">
                 <Col
                   md={5}
                   data-sal="slide-right"
-                  data-sal-delay="1000"
+                  data-sal-delay="0"
                   data-sal-easing="ease"
                   data-sal-duration="800"
                 >
@@ -85,7 +74,7 @@ export default function socialMediaMarketing() {
                 <Col
                   md={5}
                   data-sal="slide-left"
-                  data-sal-delay="1000"
+                  data-sal-delay="0"
                   data-sal-easing="ease"
                   data-sal-duration="800"
                 >
@@ -103,7 +92,7 @@ export default function socialMediaMarketing() {
                 <Col
                   md={5}
                   data-sal="slide-right"
-                  data-sal-delay="1000"
+                  data-sal-delay="0"
                   data-sal-easing="ease"
                   data-sal-duration="800"
                 >
@@ -125,7 +114,7 @@ export default function socialMediaMarketing() {
                 <Col
                   md={5}
                   data-sal="slide-left"
-                  data-sal-delay="1000"
+                  data-sal-delay="0"
                   data-sal-easing="ease"
                   data-sal-duration="800"
                 >
@@ -136,14 +125,14 @@ export default function socialMediaMarketing() {
                         matches.large ? "h4" : "h5"
                       }`}
                     >
-                      Improvement of brand loyalty
+                      Improvement of brand loyalty.
                     </p>
                   </div>
                 </Col>
                 <Col
                   md={5}
                   data-sal="slide-right"
-                  data-sal-delay="1000"
+                  data-sal-delay="0"
                   data-sal-easing="ease"
                   data-sal-duration="800"
                 >
@@ -178,7 +167,7 @@ export default function socialMediaMarketing() {
                 data-sal-duration="1000"
               >
                 Our <span className="text-warning">social media marketing</span>{" "}
-                Services
+                Services.
               </h2>
               <SocialComp />
             </Container>
@@ -201,7 +190,7 @@ export default function socialMediaMarketing() {
                   matches.large ? "display-4" : matches.medium ? "h1" : "h2"
                 } mt-n3 mb-5 text-warning text-gagalin text-center`}
               >
-                <span className="text-warning">social media</span> ads
+                <span className="text-warning">social media</span> ads.
               </h3>
               <p
                 data-sal="slide-down"
@@ -236,7 +225,7 @@ export default function socialMediaMarketing() {
                 data-sal-duration="1000"
               >
                 Our <span className="text-warning"> social media ads</span>{" "}
-                Services
+                Services.
               </h2>
               <SocialAdsComp />
             </Container>

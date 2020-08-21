@@ -73,7 +73,7 @@ const IndexPage = () => (
           data-sal-easing="ease"
           data-sal-duration="1000"
         >
-          Our <span className="text-warning">Expertise</span>{" "}
+          Our <span className="text-warning">Expertise.</span>{" "}
         </h2>
         <div>
           <ExpertiseCards />

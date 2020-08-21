@@ -19,7 +19,7 @@ let data = [
     icon: "software-development.svg",
     title: "Local SEO services",
     detail:
-      " If you have a local business , we will make sure that your local audience easily finds your website in Google!. We will also create and maintain an awesome Google My Business account and get the most out of your listings, and good rankings .",
+      " If you have a local business , we will make sure that your local audience easily finds your website in Google!. We will also create and maintain an awesome Google My Business account and get the most out of your listings, and good rankings.",
   },
   {
     icon: "internet.svg",

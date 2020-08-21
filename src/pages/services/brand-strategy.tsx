@@ -36,7 +36,7 @@ export default function brandStrategy() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                Brand Stategy Implementation
+                Brand Stategy Implementation.
               </h1>
               <p
                 className={`${

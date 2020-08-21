@@ -21,7 +21,7 @@ export default function services() {
           data-sal-easing="ease-out"
           data-sal-duration="1000"
         >
-          OUR EXPERTISE
+          OUR EXPERTISE.
         </h1>
         <Container>
           <ExpertiseCards />

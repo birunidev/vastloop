@@ -31,7 +31,7 @@ export default function eCommerce() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                E-Commerce
+                E-Commerce.
               </h1>
               <p
                 className={`${
@@ -112,7 +112,7 @@ export default function eCommerce() {
                         matches.large ? "h4" : "h5"
                       }`}
                     >
-                      Technology
+                      Technology.
                     </p>
                   </div>
                 </Col>
@@ -157,7 +157,7 @@ export default function eCommerce() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                Our <span className="text-warning">E-commerce</span> Services
+                Our <span className="text-warning">E-commerce</span> Services.
               </h2>
               <ECommerceComp />
             </Container>

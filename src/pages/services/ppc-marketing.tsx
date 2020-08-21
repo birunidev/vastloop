@@ -33,7 +33,7 @@ export default function ppcMarketing() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                Pay Per Click Marketing
+                Pay Per Click Marketing.
               </h1>
               <p
                 className={`${
@@ -55,7 +55,7 @@ export default function ppcMarketing() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                What we do
+                What we do ?
               </p>
               <div
                 className="text-center mt-4"
@@ -99,7 +99,7 @@ export default function ppcMarketing() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                Our <span className="text-warning">PPC</span> Services
+                Our <span className="text-warning">PPC</span> Services.
               </h2>
               <PPCComp />
             </Container>
@@ -121,7 +121,7 @@ export default function ppcMarketing() {
                 data-sal-duration="1000"
               >
                 Our approach to{" "}
-                <span className="text-warning">PPC reporting</span>
+                <span className="text-warning">PPC reporting.</span>
               </h3>
               <p
                 className="h5 font-weight-600 text-center text-white mt-4"

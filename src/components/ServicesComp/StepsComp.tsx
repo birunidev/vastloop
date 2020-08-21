@@ -24,7 +24,7 @@ let steps = [
     icon: "industry.svg",
     title: "Positioning",
     text:
-      "Our team is made of experts who create a strategic process that involves marketing the brand in a certain way that establishes an identity within the minds of the target consumers",
+      "Our team is made of experts who create a strategic process that involves marketing the brand in a certain way that establishes an identity within the minds of the target consumers.",
   },
   {
     icon: "blog.svg",

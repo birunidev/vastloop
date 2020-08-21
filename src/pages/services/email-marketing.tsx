@@ -32,7 +32,7 @@ export default function emailMarketing() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                Email Marketing
+                Email Marketing.
               </h1>
               <p
                 className={`${
@@ -45,7 +45,7 @@ export default function emailMarketing() {
               >
                 Save your time by allowing our dedicated specialists to build,
                 develop, launch, and manage a custom email marketing strategy
-                for your company
+                for your company.
               </p>
               <p
                 className="h3 font-weight-bold mt-5 text-center text-white"
@@ -54,7 +54,7 @@ export default function emailMarketing() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                What we do
+                What we do ?
               </p>
               <p
                 className={`h5 mt-3 line-height-2 text-white  center-justified ${
@@ -69,7 +69,7 @@ export default function emailMarketing() {
                 strategic, high-performing marketing campaigns for its
                 e-commerce clients. We use our experience, platforms, and
                 effective tools to deliver massive results for growing online
-                stores
+                stores.
               </p>
             </Container>
           </MyJumbotron>

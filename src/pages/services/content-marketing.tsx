@@ -32,7 +32,7 @@ export default function contentMarketing() {
                   data-sal-easing="ease-out"
                   data-sal-duration="1000"
                 >
-                  Content Marketing
+                  Content Marketing.
                 </h1>
                 <p
                   data-sal="slide-down"

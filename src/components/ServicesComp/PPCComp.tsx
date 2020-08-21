@@ -25,13 +25,13 @@ let data = [
     icon: "comparison-ppc.svg",
     title: "Split testing and comparison of ads",
     text:
-      "We’ll set up comparisons to test the effectiveness of different ads. This will allow us to improve our content and presentation",
+      "We’ll set up comparisons to test the effectiveness of different ads. This will allow us to improve our content and presentation.",
   },
   {
     icon: "campaign-2.svg",
     title: "PPC mini-campaigns",
     text:
-      "Let us target your state, city, or even neighborhood with ads, or set up a small campaign designed to expand your services or products",
+      "Let us target your state, city, or even neighborhood with ads, or set up a small campaign designed to expand your services or products.",
   },
   {
     icon: "score.svg",

@@ -14,7 +14,7 @@ export default function contact() {
         description="Feel free to contact us for any 
         digital marketing services"
       />
-      <MyJumbotron background="/contact-us-bg.jpg">
+      <MyJumbotron background="/contact-us-bg.jpg" classes="bg-center">
         <Container>
           <h1
             className="display-2 mt-n3 mb-5 text-warning text-gagalin text-center"
@@ -23,7 +23,7 @@ export default function contact() {
             data-sal-easing="ease"
             data-sal-duration="1000"
           >
-            CONTACT US
+            CONTACT US.
           </h1>
           <p
             className="h1 my-4 text-gagalin text-white text-center"
@@ -35,7 +35,7 @@ export default function contact() {
             Feel free to contact us{" "}
             <span className="d-lg-block">
               for any <span className="text-warning">digital marketing</span>{" "}
-              services
+              services.
             </span>
           </p>
           <Row className="justify-content-center">

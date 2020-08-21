@@ -31,7 +31,7 @@ export default function seo() {
                     : "h1"
                 } mt-n3 mb-5 text-warning text-gagalin text-center`}
               >
-                Search engine optimization
+                Search engine optimization.
               </h1>
               <p
                 className="h3 font-weight-bold mt-5 text-center text-white"
@@ -40,7 +40,7 @@ export default function seo() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                What we do
+                What we do ?
               </p>
               <SeoHelp />
             </Container>
@@ -77,7 +77,7 @@ export default function seo() {
                   data-sal-easing="ease-out"
                   data-sal-duration="1000"
                 >
-                  All in One SEO services
+                  All in One SEO services.
                 </h3>
                 <p
                   className="mt-3 mb-5 text-white font-weight-600 text-center"
@@ -128,7 +128,7 @@ export default function seo() {
                       </li>
                       <li className="text-check line-height-2  my-3">
                         Meta optimization to drive more organic traffic to your
-                        website
+                        website.
                       </li>
                       <li className="text-check line-height-2  my-3">
                         SEO Copywriting: reporting to meet your business goals

@@ -23,10 +23,9 @@ export default function Footer() {
             <Col md={5} lg={3}>
               <p className="text-justify mt-5">
                 If your brand still does not meet the level of success and brand
-                awarness you want, Vast loop agency is the lifeblood for your
-                business. We are a full-service agency that provides clients
-                from all around the world with unique and powerful strategies
-                that can transform their companies.
+                awareness you want, we are here to provide you with unique
+                strategies that will transform your company. Vast loop agency is
+                the lifeblood of your business.
               </p>
             </Col>
             <Col md={5} lg={2}>
@@ -56,6 +55,11 @@ export default function Footer() {
             <Col md={5} lg={2}>
               <ul className="mt-5">
                 <li className="mb-3">
+                  <Link className="text-white" to="/our-team">
+                    Our Team
+                  </Link>
+                </li>
+                <li className="mb-3">
                   <Link className="text-white" to="/about">
                     Terms of Agreement
                   </Link>
@@ -73,13 +77,11 @@ export default function Footer() {
               </ul>
             </Col>
 
-            <Col md={5} lg={3}>
+            <Col md={5} lg={2}>
               <ul className="mt-5">
                 <li className="d-flex">
                   <img className="d-block" src="/location.svg" alt="Map Icon" />
-                  <span className="ml-3">
-                    2715 Ash Dr. San Jose, South Dakota 83475
-                  </span>
+                  <span className="ml-3">Bali, Indonesia</span>
                 </li>
                 <li className="d-flex mt-3">
                   <img className="d-block" src="/phone.svg" alt="Phone Icon" />
@@ -109,8 +111,9 @@ export default function Footer() {
                 <a href="https://facebook.com">
                   <img
                     src="/facebook.svg"
-                    className="img-fluid"
+                    className="img-fluid trans-scale"
                     alt="facebook icon "
+                    width="10"
                   />
                 </a>
               </li>
@@ -119,7 +122,8 @@ export default function Footer() {
                   <img
                     src="/instagram.svg"
                     alt="facebook icon "
-                    className="img-fluid"
+                    className="img-fluid trans-scale"
+                    width="25"
                   />
                 </a>
               </li>
@@ -128,7 +132,8 @@ export default function Footer() {
                   <img
                     src="/linkedin.svg"
                     alt="facebook icon "
-                    className="img-fluid"
+                    className="img-fluid trans-scale"
+                    width="22"
                   />
                 </a>
               </li>

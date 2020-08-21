@@ -7,7 +7,7 @@ let data = [
     icon: "friends.svg",
     title: "Welcome\n Email",
     text:
-      "They are a great way to show your audience that you’ve received their requests and that you’re excited to have them as a part of your subscriber list",
+      "They are a great way to show your audience that you’ve received their requests and that you’re excited to have them as a part of your subscriber list.",
   },
   {
     icon: "mail-service-1.svg",
@@ -19,7 +19,7 @@ let data = [
     icon: "promotion.svg",
     title: "Promotional\n Emails",
     text:
-      "These are meant to get recipients excited about your new products or services — excited enough that they want to purchase your new items",
+      "These are meant to get recipients excited about your new products or services — excited enough that they want to purchase your new items.",
   },
   {
     icon: "mail-service-2.svg",

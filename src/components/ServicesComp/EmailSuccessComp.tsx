@@ -7,7 +7,7 @@ let data = [
     icon: "competitor.svg",
     title: "We get to know your competition",
     text:
-      "We will help you catch the best chance of standing out in your potential clients’ inbox. We make researches about your competition, and create a custom email marketing strategy that drives even more results",
+      "We will help you catch the best chance of standing out in your potential clients’ inbox. We make researches about your competition, and create a custom email marketing strategy that drives even more results.",
   },
   {
     icon: "research.svg",
@@ -19,7 +19,7 @@ let data = [
     icon: "cinema.svg",
     title: "We learn about your audience",
     text:
-      "We study details like age group, gender, geographic location, and more. This helps us understand how your emails should look, the tone they should promote, and the best way to sell your products in an email-based format",
+      "We study details like age group, gender, geographic location, and more. This helps us understand how your emails should look, the tone they should promote, and the best way to sell your products in an email-based format.",
   },
 ]
 

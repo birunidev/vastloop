@@ -21,7 +21,7 @@ export default function about() {
             data-sal-easing="ease"
             data-sal-duration="1000"
           >
-            ABOUT US
+            ABOUT US.
           </h1>
           <p
             className="h1 my-4 text-gagalin text-white text-center"
@@ -30,7 +30,7 @@ export default function about() {
             data-sal-easing="ease"
             data-sal-duration="1000"
           >
-            We make you different, unique, and identifiable by others
+            We make you different, unique, and identifiable by others.
           </p>
           <p
             className="h5 mt-5 line-height-2 text-white font-weight-600 text-center w-75 mx-auto"
@@ -42,7 +42,7 @@ export default function about() {
             if your brand still does not meet the level of success and brand
             awareness you want, we are here to provide you with unique
             strategies that will transform your company. Vast loop agency is the
-            lifeblood of your business
+            lifeblood of your business.
           </p>
         </Container>
       </MyJumbotron>

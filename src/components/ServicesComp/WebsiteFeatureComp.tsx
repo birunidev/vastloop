@@ -5,17 +5,17 @@ import BlurbCheck from "./../UI/BlurbCheck"
 let data = [
   {
     img: "animation.svg",
-    text: "Use a unique animation to create a memorable website experience",
+    text: "Use a unique animation to create a memorable website experience.",
   },
   {
     img: "ux.svg",
     text:
-      "Design your website in a style that catches the visitors attention and lets them keep clicking and scrolling to know more",
+      "Design your website in a style that catches the visitors attention and lets them keep clicking and scrolling to know more.",
   },
   {
     img: "server.svg",
     text:
-      "Provide fast Web Hosting by making the pages load speeds engaging and drive the kind of actions we want visitors to take",
+      "Provide fast Web Hosting by making the pages load speeds engaging and drive the kind of actions we want visitors to take.",
   },
 ]
 

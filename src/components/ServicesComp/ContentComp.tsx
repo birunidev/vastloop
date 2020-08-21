@@ -13,7 +13,7 @@ let contentServices = [
     icon: "subs.svg",
     title: "Content Marketing Reporting",
     text:
-      "The content that we develop will be unique to your business and published to your website. All content must be published to a WordPress blog or similar CMS. If your content is hosted on another website, we can create a WordPress blog for you and add it to your website",
+      "The content that we develop will be unique to your business and published to your website. All content must be published to a WordPress blog or similar CMS. If your content is hosted on another website, we can create a WordPress blog for you and add it to your website.",
   },
   {
     icon: "content.svg",

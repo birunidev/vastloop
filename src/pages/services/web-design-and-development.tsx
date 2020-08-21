@@ -34,7 +34,7 @@ export default function webDesign() {
                 data-sal-duration="1000"
               >
                 Website design <span className="d-lg-block"></span> and
-                developement
+                developement.
               </h1>
               <p
                 className={`${
@@ -94,7 +94,7 @@ export default function webDesign() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                We also
+                We also :
               </h3>
               <WebsiteFeatureComp />
               <div className="mt-6">

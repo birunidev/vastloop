@@ -61,7 +61,7 @@ export default function aboutUs() {
                           matches.large ? "h4" : "h5"
                         } `}
                       >
-                        Differentiate your brand than competitors
+                        Differentiate your brand than competitors.
                       </p>
                     </div>
                   </Col>
@@ -154,7 +154,7 @@ export default function aboutUs() {
                   data-sal-easing="ease"
                   data-sal-duration="1000"
                 >
-                  Our <span className="text-warning">Expertise</span>{" "}
+                  Our <span className="text-warning">Expertise</span> .
                 </h2>
                 <div>
                   <ExpertiseCards />

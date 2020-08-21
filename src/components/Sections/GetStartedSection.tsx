@@ -1,5 +1,6 @@
 import React from "react"
 import { Container, Button } from "react-bootstrap"
+import ContactForm from "./../Forms/ContactForm"
 
 export default function GetStartedSection() {
   return (
@@ -7,7 +8,7 @@ export default function GetStartedSection() {
       className="get-started-section d-flex justify-content-center align-items-center text-white text-center"
       style={{
         padding: "100px 0px 150px",
-        background: "url('/get-started.jpg')",
+        background: "url('/get-started-bg.jpg')",
         backgroundSize: "cover",
       }}
     >
@@ -18,18 +19,12 @@ export default function GetStartedSection() {
         data-sal-duration="1000"
       >
         <p className="display-4 text-gagalin">
-          Let’s <span className="text-warning">Get Started</span>{" "}
+          <span className="text-warning">Get Started.</span>{" "}
         </p>
         <p className="h5 font-weight-600 my-4">
-          Looking forward to hearing from you
+          Looking forward to hear from you.
         </p>
-        <Button
-          size="lg"
-          className="font-weight-600 trans-scale"
-          variant="warning"
-        >
-          Let's Chat with us
-        </Button>
+        <ContactForm />
       </Container>
     </div>
   )
