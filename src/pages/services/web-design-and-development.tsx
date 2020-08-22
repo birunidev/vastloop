@@ -97,7 +97,7 @@ export default function webDesign() {
               </h3>
               <WebsiteFeatureComp />
               <div className="mt-6">
-                <DoMore title="Web Design and Development" />
+                <DoMore title="Web design and development" />
               </div>
             </Container>
           </section>

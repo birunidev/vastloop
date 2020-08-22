@@ -11,13 +11,13 @@ let data = [
   },
   {
     icon: "report.svg",
-    title: "Ranking Monitor",
+    title: "Ranking monitor",
     text:
       "Visit your client dashboard anytime and see how your site is ranking for specific keywords and search phrases.",
   },
   {
     icon: "score.svg",
-    title: "Detailed Report",
+    title: "Detailed report",
     text:
       "View a detailed report sent to you monthly, listing how we’ve spent our time working on your PPC campaign.",
   },

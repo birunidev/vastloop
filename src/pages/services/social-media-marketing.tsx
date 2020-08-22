@@ -107,7 +107,7 @@ export default function socialMediaMarketing() {
                         matches.large ? "h4" : "h5"
                       }`}
                     >
-                      Increasing conversion rates.
+                      Increasing of conversion rates.
                     </p>
                   </div>
                 </Col>

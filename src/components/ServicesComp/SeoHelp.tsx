@@ -11,16 +11,16 @@ let data = [
   {
     img: "problem.svg",
     text:
-      "Increase your company's recognition  online, which leads to building you Brand awarness.",
+      "Increase your company's recognition online, which leads to building your brand awarness.",
   },
   {
     img: "review.svg",
     text:
-      "Reach customers at the right time when they are looking for your product and ready to buy.",
+      "Reach customers at the right time when they are looking for your product and ready to buy it.",
   },
   {
     img: "return-on-investment.svg",
-    text: "Improve your digital marketing ROI",
+    text: "Improve your digital marketing ROI.",
   },
   {
     img: "target-audience.svg",

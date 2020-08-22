@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap"
 let data = [
   {
     icon: "rank.svg",
-    title: "Organic SEO Services",
+    title: "Organic SEO services",
     detail:
       " We will design an SEO strategy that suits your unique business, and identifies the following:",
     lists: [
@@ -23,19 +23,19 @@ let data = [
   },
   {
     icon: "internet.svg",
-    title: "Content Marketing",
+    title: "Content marketing",
     detail:
       " Our team creates valuable contents to attract and build customers’ loyalty, and generate profitable actions from them. We will create useful informations for your target audience in the form of: written words, infographics, pictures, videos, and more. ",
   },
   {
     icon: "seo-and-web.svg",
-    title: "Link Building services",
+    title: "Link building services",
     detail:
       "Our  SEO specialists  will provide your business with quality backlinks and organic referrals. We will boost your pages to rank higher in Google’s search results.",
   },
   {
     icon: "filter.svg",
-    title: "Conversion Rate Optimization ( CRO )",
+    title: "Conversion rate optimization ( CRO )",
     detail:
       "We can increase the number of visitors who take the profitable action you want on your website. We analyze their behaviors, needs, and experiences. Which means we use CRO in a way that combines technical elements with the psychology of your potential customers. Among the results our team can help you achieve:",
     lists: [
@@ -75,15 +75,19 @@ function SeoBlurb({ isEven, icon, lists, detail, title }) {
           data-sal-duration="1000"
         >
           <p className=" text-warning font-weight-bold seo-blurb__title">
-            {title}
+            {title}:
           </p>
           <p className="font-weight-600 h5 my-4 line-height-2">{detail}</p>
           {lists && (
-            <ul className="seo-blurb__list h6">
+            <ul className="seo-blurb__list h5">
               {lists.map((list, index) => {
                 return (
-                  <li key={index} className="text-justify my-3 text-check">
-                    - {list}
+                  <li
+                    key={index}
+                    className="text-justify my-3 d-flex align-items-center"
+                  >
+                    <span className="mr-3">- {list}</span>
+                    <img src="/check.svg" alt="Check Icon" />
                   </li>
                 )
               })}

@@ -5,7 +5,7 @@ import { StepCard } from "./StepsComp"
 let data = [
   {
     icon: "keyword.svg",
-    title: "Comprehensive Keyword Research.",
+    title: "Comprehensive keyword research.",
     text:
       "We ensure that you appear for the right searches by finding newly discovered keywords, and effectively monitoring your campaign’s performance.",
   },
@@ -17,7 +17,7 @@ let data = [
   },
   {
     icon: "campaign.svg",
-    title: "Remarketing \ncampaigns",
+    title: "Remarketing campaigns",
     text:
       "Our remarketing tactics serve targeted ads to people who have already visited or taken action on your website. Using a remarketing campaign, we can help growing return on ad spendings by increasing sales, and getting more leades.",
   },

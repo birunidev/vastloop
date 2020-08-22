@@ -173,8 +173,8 @@ const Header = () => {
             zIndex: 9999,
           }}
         >
-          We Know Your Worth <br />
-          Then Add Value
+          We know your worth. <br />
+          Then add value.
         </p>
       </Container>
     </header>

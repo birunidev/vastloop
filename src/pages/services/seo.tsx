@@ -34,13 +34,13 @@ export default function seo() {
                 Search engine optimization.
               </h1>
               <p
-                className="h3 font-weight-bold mt-5 text-center text-white"
+                className="h2 font-weight-bold mt-5 text-center text-warning text-gagalin"
                 data-sal="slide-down"
                 data-sal-delay="1000"
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                We Help You :
+                We help you :
               </p>
               <SeoHelp />
             </Container>
@@ -105,34 +105,53 @@ export default function seo() {
                     </div>
                   </div>
                   <div
-                    className="col-md-6 col-lg-5"
+                    className="col-md-6 "
                     data-sal="slide-right"
                     data-sal-delay="0"
                     data-sal-easing="ease-out"
                     data-sal-duration="1000"
                   >
                     <ul className="mt-5 ml-4">
-                      <li className="text-check text-justify line-height-2  my-3">
-                        Comprehensive analysis of your website, your
-                        competition, Search Engine visibility . Usage of a
-                        variety of methods to obtain the best keywords to drive
-                        quality traffic to your website.
+                      <li className="text-justify d-flex justify-content-between line-height-2 my-3">
+                        <span>
+                          Comprehensive analysis of your website, your
+                          competition, Search Engine visibility . Usage of a
+                          variety of methods to obtain the best keywords to
+                          drive quality traffic to your website.
+                        </span>
+                        <img
+                          className="d-inline-block"
+                          src="/check.svg"
+                          alt="Check Icon"
+                        />
                       </li>
-                      <li className="text-check line-height-2  my-3">
-                        Onpage optimization to improve the visibility and
-                        usability of your website in search engines.
+                      <li className="line-height-2 my-3 d-flex justify-content-between">
+                        <span>
+                          Onpage optimization to improve the visibility and
+                          usability of your website in search engines.
+                        </span>
+                        <img src="/check.svg" alt="Check Icon" />
                       </li>
-                      <li className="text-check line-height-2  my-3">
-                        Quality Inbound and internal linking to highly rank onh
-                        search.
+                      <li className="line-height-2 my-3 d-flex justify-content-between">
+                        <span>
+                          Quality inbound and internal linking to highly rank
+                          onh search.
+                        </span>
+                        <img src="/check.svg" alt="Check Icon" />
                       </li>
-                      <li className="text-check line-height-2  my-3">
-                        Meta optimization to drive more organic traffic to your
-                        website.
+                      <li className="line-height-2 my-3 d-flex justify-content-between">
+                        <span>
+                          Meta optimization to drive more organic traffic to
+                          your website.
+                        </span>
+                        <img src="/check.svg" alt="Check Icon" />
                       </li>
-                      <li className="text-check line-height-2  my-3">
-                        SEO Copywriting: reporting to meet your business goals
-                        and make wise decisions that improve ROI.
+                      <li className="line-height-2 my-3 d-flex justify-content-between">
+                        <span>
+                          SEO copywriting: reporting to meet your business goals
+                          and make wise decisions that improve ROI.
+                        </span>
+                        <img src="/check.svg" alt="Check Icon" />
                       </li>
                     </ul>
                   </div>

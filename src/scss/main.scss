@@ -1,6 +1,13 @@
 @import "./font";
 @import "./variables";
 
+.text-justify {
+  // word-break: break-all;
+}
+.text-pre-line {
+  white-space: pre-line;
+}
+
 $font-size-base: 1.35rem;
 
 $theme-color: (

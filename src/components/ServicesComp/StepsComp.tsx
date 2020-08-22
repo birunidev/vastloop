@@ -30,11 +30,11 @@ let steps = [
     icon: "blog.svg",
     title: "Go to market strategy",
     text:
-      "Vast loop agency creates an organized structure of the companies’ brands ,sub-brands, products and services to show how they are connected like a family tree : each member is related, but unique.",
+      "Vast loop agency creates an organized structure of the companies’ brands, sub-brands, products and services to show how they are connected like a family tree : each member is related, but unique.",
   },
   {
-    icon: "sketch.svg",
-    title: "Brand archicture",
+    icon: "support.svg",
+    title: "Messaging",
     text:
       "We make your messaging sound conversational and reflecting to your brand’s personality. our tactics make your target audience feel an emotional connection to your product or service.",
   },
@@ -43,7 +43,7 @@ let steps = [
 export function StepCard({ icon, title, text, maxWidth = "100%" }) {
   return (
     <div
-      className="step-blurb mx-auto my-5 row align-items-center"
+      className="step-blurb mx-auto my-5 row "
       style={{ maxWidth: maxWidth }}
     >
       <div
@@ -64,9 +64,11 @@ export function StepCard({ icon, title, text, maxWidth = "100%" }) {
         data-sal-easing="ease-out"
         data-sal-duration="1000"
       >
-        <div className="step-blurb__detail mt-5">
-          <p className="h4 text-warning font-weight-bold text-left">{title}</p>
-          <p className="text-white line-height-2 text-justify">{text}</p>
+        <div className="step-blurb__detail ">
+          <p className="h3 text-warning font-weight-bold text-center text-md-left">
+            {title}:
+          </p>
+          <p className="text-white line-height-2 text-justify h5">{text}</p>
         </div>
       </div>
       <div

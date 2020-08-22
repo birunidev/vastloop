@@ -39,7 +39,7 @@ export function BlurbCommerce({
           >
             {title}
           </p>
-          <p className="text-white line-height-2 font-weight-600 text-justify">
+          <p className="text-white line-height-2 font-weight-600 text-justify text-pre-line">
             {text}
           </p>
         </div>
@@ -50,9 +50,10 @@ export function BlurbCommerce({
                 return (
                   <li
                     key={index}
-                    className="text-white font-weight-500 text-check "
+                    className="text-white font-weight-500 d-flex justify-content-between w-75"
                   >
-                    {list}
+                    <span className="mr-3">{list}</span>
+                    <img src="/check.svg" width={35} alt="Check Icon" />
                   </li>
                 )
               })}

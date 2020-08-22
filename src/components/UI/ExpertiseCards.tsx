@@ -5,36 +5,36 @@ import { Link } from "gatsby"
 export let expertise = [
   {
     title:
-      '<p> <span class="text-warning">Brand Strategy</span> Implementation<p>',
+      '<p> <span class="text-warning">Brand strategy</span> implementation<p>',
     img: "brand-strategy.svg",
     link: "brand-strategy",
   },
   {
     title:
-      '<p> <span class="text-warning">Website Design</span><br/> & Development <p>',
+      '<p> <span class="text-warning">Website design</span><br/> & development <p>',
     img: "webdev.svg",
     link: "web-design-and-development",
   },
   {
     title:
-      '<p> <span class="text-warning">Search Engine</span> Optimization (SEO)<p>',
+      '<p> <span class="text-warning">Search engine</span> optimization (SEO)<p>',
     img: "seo.svg",
     link: "seo",
   },
   {
     title:
-      '<p> <span class="text-warning">Social Media</span> Marketing and Advertising<p>',
+      '<p> <span class="text-warning">Social media</span> marketing and advertising<p>',
     img: "socmed.svg",
     link: "social-media-marketing",
   },
   {
     title:
-      '<p> <span class="text-warning">Pay-Per-Click  </span><br/> ( PPC ) Marketing<p>',
+      '<p> <span class="text-warning">Pay-per-click  </span><br/> ( PPC ) marketing<p>',
     img: "ppc.svg",
     link: "ppc-marketing",
   },
   {
-    title: '<p> <span class="text-warning">E-Commerce </span><br/> Website<p>',
+    title: '<p> <span class="text-warning">E-commerce<p>',
     img: "e-commerce.svg",
     link: "e-commerce",
   },
@@ -44,7 +44,7 @@ export let expertise = [
     link: "content-marketing",
   },
   {
-    title: '<p> <span class="text-warning">Email </span> <br/> Marketing<p>',
+    title: '<p> <span class="text-warning">Email </span> <br/> marketing<p>',
     img: "mail-marketing.svg",
     link: "email-marketing",
   },

@@ -7,7 +7,7 @@ export default function BlurbCheck({ img, text }) {
     <Media queries={GLOBAL_MEDIA_QUERIES}>
       {matches => {
         return (
-          <div className="blurb-check row justify-content-between align-items-center mt-5 mx-auto">
+          <div className="blurb-check row justify-content-between mt-5 mx-auto">
             <div className="col-md-4">
               <div
                 className="blurb-check__img mx-auto"
@@ -27,7 +27,7 @@ export default function BlurbCheck({ img, text }) {
                     : matches.medium
                     ? "text-justify h4"
                     : "center-justified h5"
-                } font-weight-600 mt-5 mx-auto`}
+                } font-weight-600 mx-auto`}
                 data-sal="slide-up"
                 data-sal-delay="500"
                 data-sal-easing="ease-out"

@@ -48,20 +48,6 @@ export default function ppcMarketing() {
                 front of people who are most likely to be interested in your
                 products or services.
               </p>
-
-              {/* <div
-                className="text-center mt-4"
-                data-sal="slide-up"
-                data-sal-delay="0"
-                data-sal-easing="ease-out"
-                data-sal-duration="1000"
-              >
-                <img
-                  src="/big-companies.svg"
-                  alt="Big Companies Logo"
-                  className="mx-auto"
-                />
-              </div> */}
             </Container>
           </MyJumbotron>
           <section
@@ -74,7 +60,7 @@ export default function ppcMarketing() {
           >
             <Container>
               <p
-                className="h5 mt-3 line-height-2 text-white  center-justified w-75 mx-auto"
+                className="h5 mt-3 mb-5 line-height-2 text-white  center-justified w-75 mx-auto"
                 data-sal="slide-up"
                 data-sal-delay="0"
                 data-sal-easing="ease-out"

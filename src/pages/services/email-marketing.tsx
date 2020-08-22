@@ -48,7 +48,7 @@ export default function emailMarketing() {
                 for your company.
               </p>
               <p
-                className="h3 font-weight-bold mt-5 text-center text-warning"
+                className="h3 font-weight-bold mt-5 text-center text-gagalin text-warning"
                 data-sal="fade"
                 data-sal-delay="0"
                 data-sal-easing="ease-out"
@@ -81,7 +81,7 @@ export default function emailMarketing() {
               backgroundSize: "cover",
             }}
           >
-            <Container>
+            <Container fluid>
               <h2
                 className="text-center font-weight-bold text-gagalin h1 text-white"
                 data-sal="slide-up"
@@ -104,7 +104,7 @@ export default function emailMarketing() {
               backgroundSize: "cover",
             }}
           >
-            <Container>
+            <Container fluid>
               <h3
                 className="text-center font-weight-bold text-gagalin h2 text-white"
                 data-sal="slide-up"
