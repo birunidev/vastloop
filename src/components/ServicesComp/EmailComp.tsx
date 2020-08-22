@@ -5,7 +5,7 @@ import { StepCard } from "./StepsComp"
 let data = [
   {
     icon: "friends.svg",
-    title: "Welcome\n Email",
+    title: "Welcome Email",
     text:
       "They are a great way to show your audience that you’ve received their requests and that you’re excited to have them as a part of your subscriber list.",
   },
@@ -17,7 +17,7 @@ let data = [
   },
   {
     icon: "promotion.svg",
-    title: "Promotional\n Emails",
+    title: "Promotional Emails",
     text:
       "These are meant to get recipients excited about your new products or services — excited enough that they want to purchase your new items.",
   },
@@ -34,12 +34,11 @@ export default function EmailComp() {
     <Row className="mt-5">
       {data.map((service, index) => {
         return (
-          <Col md={6} key={index}>
+          <Col md={12} key={index}>
             <StepCard
               title={service.title}
               text={service.text}
               icon={service.icon}
-              maxWidth={230}
             />
           </Col>
         )

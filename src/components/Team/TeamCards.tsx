@@ -61,7 +61,7 @@ function TeamCard({ img, name, position }) {
         <img src={`/team/${img}`} className="img-fluid" alt={name} />
       </div>
       <div className="team-card__detail text-center">
-        <p className="h3 font-weight-bold text-gagalin text-warning">{name}</p>
+        <p className="h2 font-weight-bold text-warning">{name}</p>
         <p className="h4 font-weight-600 text-white">{position}</p>
       </div>
     </div>

@@ -125,7 +125,7 @@ export default function ContactForm() {
             <img src={`/services.svg`} alt={`Services Icon`} />
           </label>
           <select name="services" id="service">
-            <option value="none">OUR SERVICES</option>
+            <option value="none">SERVICES YOU ARE INTERESTED IN</option>
             {expertise.map((service, index) => {
               return (
                 <option key={index} value={service}>
@@ -144,7 +144,7 @@ export default function ContactForm() {
         value={formik.values.message}
         label="Message"
         icon="message.svg"
-        placeholder="HOW WE CAN HELP YOU"
+        placeholder="HOW CAN WE HELP YOU ?"
         type="text"
         error={formik.errors.message}
         textarea={true}
@@ -152,6 +152,7 @@ export default function ContactForm() {
       <button
         type="submit"
         className="rounded-0 btn btn-warning font-weight-bold btn-block"
+        style={{ fontSize: "1.5rem" }}
       >
         Send a Message
       </button>

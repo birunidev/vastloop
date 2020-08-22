@@ -40,22 +40,49 @@ let steps = [
   },
 ]
 
-export function StepCard({ icon, title, text, maxWidth }) {
+export function StepCard({ icon, title, text, maxWidth = "100%" }) {
   return (
     <div
-      className="step-blurb mx-auto my-5"
+      className="step-blurb mx-auto my-5 row align-items-center"
       style={{ maxWidth: maxWidth }}
-      data-sal="fade"
-      data-sal-delay="0"
-      data-sal-easing="ease-out"
-      data-sal-duration="1000"
     >
-      <div className="step-blurb__img trans-scale cursor-pointer">
-        <img src={`/${icon}`} alt={text + " icon"} />
+      <div
+        className="col-md-4"
+        data-sal="slide-up"
+        data-sal-delay="0"
+        data-sal-easing="ease-out"
+        data-sal-duration="1000"
+      >
+        <div className="step-blurb__img trans-scale cursor-pointer">
+          <img src={`/${icon}`} alt={text + " icon"} />
+        </div>
       </div>
-      <div className="step-blurb__detail mt-5">
-        <p className="h4 text-warning font-weight-bold text-center">{title}</p>
-        <p className="text-white line-height-2 center-justified">{text}</p>
+      <div
+        className="col-md-6"
+        data-sal="slide-up"
+        data-sal-delay="500"
+        data-sal-easing="ease-out"
+        data-sal-duration="1000"
+      >
+        <div className="step-blurb__detail mt-5">
+          <p className="h4 text-warning font-weight-bold text-left">{title}</p>
+          <p className="text-white line-height-2 text-justify">{text}</p>
+        </div>
+      </div>
+      <div
+        className="col-md-2"
+        data-sal="slide-up"
+        data-sal-delay="1000"
+        data-sal-easing="ease-out"
+        data-sal-duration="1000"
+      >
+        <img
+          width={200}
+          className="d-none d-md-block"
+          style={{ transform: "translateY(-15px)" }}
+          src="/check.svg"
+          alt="Check Icon"
+        />
       </div>
     </div>
   )
@@ -66,13 +93,8 @@ export default function StepsComp() {
     <Row className="justify-content-between mt-5">
       {steps.map((step, index) => {
         return (
-          <Col md={5} lg={4} key={index}>
-            <StepCard
-              title={step.title}
-              text={step.text}
-              icon={step.icon}
-              maxWidth={220}
-            />
+          <Col md={12} key={index}>
+            <StepCard title={step.title} text={step.text} icon={step.icon} />
           </Col>
         )
       })}

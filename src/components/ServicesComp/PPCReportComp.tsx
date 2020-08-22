@@ -34,12 +34,11 @@ export default function PPCReportComp() {
     <Row className="mt-5">
       {data.map((report, index) => {
         return (
-          <Col md={6} key={index}>
+          <Col md={12} key={index}>
             <StepCard
               title={report.title}
               text={report.text}
               icon={report.icon}
-              maxWidth={250}
             />
           </Col>
         )

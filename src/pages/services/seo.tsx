@@ -40,7 +40,7 @@ export default function seo() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                What we do ?
+                We Help You :
               </p>
               <SeoHelp />
             </Container>
@@ -77,7 +77,7 @@ export default function seo() {
                   data-sal-easing="ease-out"
                   data-sal-duration="1000"
                 >
-                  All in One SEO services.
+                  SEO Packages.
                 </h3>
                 <p
                   className="mt-3 mb-5 text-white font-weight-600 text-center"

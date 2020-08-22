@@ -146,7 +146,7 @@ export default function aboutUs() {
                 backgroundPosition: "center",
               }}
             >
-              <Container>
+              <Container fluid>
                 <h2
                   className="text-center font-weight-bold text-gagalin display-4 text-white"
                   data-sal="slide-up"
@@ -154,7 +154,7 @@ export default function aboutUs() {
                   data-sal-easing="ease"
                   data-sal-duration="1000"
                 >
-                  Our <span className="text-warning">Expertise</span> .
+                  Our <span className="text-warning">Expertise.</span>
                 </h2>
                 <div>
                   <ExpertiseCards />

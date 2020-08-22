@@ -1,5 +1,7 @@
 import React from "react"
 import { Row, Col } from "react-bootstrap"
+import Media from "react-media"
+import { GLOBAL_MEDIA_QUERIES } from "./../layout"
 
 let whychooses = [
   {
@@ -26,15 +28,34 @@ let whychooses = [
 
 function WhyChooseCard({ text, icon }) {
   return (
-    <div className="why-choose-card text-white d-flex ">
-      <div className="why-choose-card__img">
-        <img width={100} src={`/${icon}`} alt={icon} />
-      </div>
-      <div
-        dangerouslySetInnerHTML={{ __html: text }}
-        className="ml-5 text-justify"
-      ></div>
-    </div>
+    <Media queries={GLOBAL_MEDIA_QUERIES}>
+      {matches => {
+        return (
+          <div className="why-choose-card text-white row align-items-center">
+            <div className="col-md-4">
+              <div className="why-choose-card__img mx-auto my-4">
+                <img src={`/${icon}`} alt={icon} className="mx-auto" />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div
+                dangerouslySetInnerHTML={{ __html: text }}
+                className={`text-justify ${matches.large ? "h4" : "p"}`}
+              ></div>
+            </div>
+            <div className="col-md-2">
+              <img
+                width={200}
+                className="d-none d-md-block"
+                style={{ transform: "translateY(-15px)" }}
+                src="/check.svg"
+                alt="Check Icon"
+              />
+            </div>
+          </div>
+        )
+      }}
+    </Media>
   )
 }
 
@@ -44,12 +65,10 @@ export default function WhyChooseCards() {
       {whychooses.map((choose, index) => {
         return (
           <Col
-            className="mt-4"
-            md={5}
+            className="mt-6"
+            md={12}
             key={index}
-            data-sal={`${
-              index === 0 || index === 2 ? "slide-right" : "slide-left"
-            }`}
+            data-sal={`slide-right`}
             data-sal-delay="0"
             data-sal-easing="ease"
             data-sal-duration="1000"

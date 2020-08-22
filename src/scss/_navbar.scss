@@ -22,6 +22,7 @@
   .nav-link-custom {
     color: white !important;
     font-weight: 600;
+
     &:hover {
       color: $warning !important;
     }
@@ -50,5 +51,12 @@
       background: transparent;
       color: $warning;
     }
+  }
+}
+
+.logo-class {
+  width: 230px;
+  @include tablet {
+    width: 400px;
   }
 }

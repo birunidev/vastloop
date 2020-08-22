@@ -23,7 +23,7 @@ export default function services() {
         >
           OUR EXPERTISE.
         </h1>
-        <Container>
+        <Container fluid>
           <ExpertiseCards />
         </Container>
       </MyJumbotron>

@@ -10,6 +10,7 @@ export default function GetStartedSection() {
         padding: "100px 0px 150px",
         background: "url('/get-started-bg.jpg')",
         backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <Container
@@ -18,7 +19,7 @@ export default function GetStartedSection() {
         data-sal-easing="ease"
         data-sal-duration="1000"
       >
-        <p className="display-4 text-gagalin">
+        <p className="display-3 text-gagalin">
           <span className="text-warning">Get Started.</span>{" "}
         </p>
         <p className="h5 font-weight-600 my-4">

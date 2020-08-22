@@ -28,12 +28,11 @@ export default function EmailSuccessComp() {
     <Row className="mt-5">
       {data.map((success, index) => {
         return (
-          <Col md={4} key={index}>
+          <Col md={12} key={index}>
             <StepCard
               title={success.title}
               text={success.text}
               icon={success.icon}
-              maxWidth={230}
             />
           </Col>
         )

@@ -43,7 +43,7 @@ export default function brandStrategy() {
                   matches.large ? "h1" : matches.medium ? "h3" : "h4"
                 } my-4 text-gagalin text-white text-center`}
                 data-sal="slide-down"
-                data-sal-delay="1000"
+                data-sal-delay="0"
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
@@ -53,7 +53,7 @@ export default function brandStrategy() {
               <p
                 className="h5 mt-5 line-height-2 text-white font-weight-600 center-justified w-75 mx-auto"
                 data-sal="zoom-in"
-                data-sal-delay="1500"
+                data-sal-delay="1000"
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
@@ -65,7 +65,7 @@ export default function brandStrategy() {
           </MyJumbotron>
           <section
             style={{
-              backgroundImage: "url('/vision-bg.jpg')",
+              backgroundImage: "url('/team-bg.jpg')",
               padding: "100px 0px 150px",
               backgroundPosition: "center",
               backgroundSize: "cover",

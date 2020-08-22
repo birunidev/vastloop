@@ -9,14 +9,14 @@ export default function Footer() {
         style={{ background: "url('/footer.jpg')", backgroundSize: "cover" }}
         className="text-white py-5"
       >
-        <Container>
+        <Container fluid style={{ paddingLeft: "40px", paddingRight: "40px" }}>
           <Row className="justify-content-between">
             <Col>
               <img
                 src="/logo-white.png"
                 alt="Vast Loop Logo White"
                 loading="lazy"
-                width={250}
+                width={330}
               />
             </Col>
             <div className="w-100"></div>
@@ -93,7 +93,7 @@ export default function Footer() {
                     src="/mail-icon.svg"
                     alt="Mail Icon"
                   />
-                  <span className="ml-3">contact@vastloop.com</span>
+                  <span className="ml-3">mail@vastloop.com</span>
                 </li>
               </ul>
             </Col>
@@ -101,7 +101,7 @@ export default function Footer() {
         </Container>
       </footer>
       <div className="bg-dark">
-        <Container>
+        <Container fluid style={{ paddingLeft: "40px", paddingRight: "40px" }}>
           <div className="d-flex justify-content-between align-items-center py-3">
             <p className="text-white">
               © Copyright 2020 | All Right Reserved to Vast Loop{" "}

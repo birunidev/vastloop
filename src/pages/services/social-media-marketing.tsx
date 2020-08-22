@@ -81,7 +81,7 @@ export default function socialMediaMarketing() {
                   <div className="help-blurb d-flex align-items-center my-4">
                     <img src="/post.svg" width="85" alt="Revenue Icon" />
                     <p
-                      className={`ml-4 text-justify text-white font-weight-600 ${
+                      className={`ml-4 text-left text-white font-weight-600 ${
                         matches.large ? "h4" : "h5"
                       }`}
                     >
@@ -103,7 +103,7 @@ export default function socialMediaMarketing() {
                       alt="Growth Icon"
                     />
                     <p
-                      className={`ml-4 text-justify text-white font-weight-600 ${
+                      className={`ml-4 text-left text-white font-weight-600 ${
                         matches.large ? "h4" : "h5"
                       }`}
                     >
@@ -121,7 +121,7 @@ export default function socialMediaMarketing() {
                   <div className="help-blurb d-flex align-items-center my-4">
                     <img src="/loyalty.svg" width="85" alt="Revenue Icon" />
                     <p
-                      className={`ml-4 text-justify text-white font-weight-600 ${
+                      className={`ml-4 text-left text-white font-weight-600 ${
                         matches.large ? "h4" : "h5"
                       }`}
                     >
@@ -139,7 +139,7 @@ export default function socialMediaMarketing() {
                   <div className="help-blurb d-flex align-items-center my-4">
                     <img src="/audit.svg" width="85" alt="Revenue Icon" />
                     <p
-                      className={`ml-4 text-justify text-white font-weight-600 ${
+                      className={`ml-4 text-left text-white font-weight-600 ${
                         matches.large ? "h4" : "h5"
                       }`}
                     >
@@ -154,7 +154,7 @@ export default function socialMediaMarketing() {
             style={{
               backgroundImage: "url('/seo-service-bg.jpg')",
               padding: "100px 0px 80px",
-              backgroundPosition: "bottom center",
+              backgroundPosition: "center center",
               backgroundSize: "cover",
             }}
           >

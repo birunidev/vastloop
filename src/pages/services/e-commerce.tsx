@@ -90,7 +90,7 @@ export default function eCommerce() {
                       alt="Revenue Icon"
                     />
                     <p
-                      className={`ml-4 text-justify text-white font-weight-600 ${
+                      className={`ml-4 text-left text-white font-weight-600 ${
                         matches.large ? "h4" : "h5"
                       }`}
                     >
@@ -108,7 +108,7 @@ export default function eCommerce() {
                   <div className="help-blurb d-flex align-items-center my-4">
                     <img src="/wordpress.svg" width="85" alt="Growth Icon" />
                     <p
-                      className={`ml-4 text-justify text-white font-weight-600 ${
+                      className={`ml-4 text-left text-white font-weight-600 ${
                         matches.large ? "h4" : "h5"
                       }`}
                     >
@@ -130,7 +130,7 @@ export default function eCommerce() {
                       alt="Revenue Icon"
                     />
                     <p
-                      className={`ml-4 text-justify text-white font-weight-600 ${
+                      className={`ml-4 text-left text-white font-weight-600 ${
                         matches.large ? "h4" : "h5"
                       }`}
                     >
@@ -143,9 +143,9 @@ export default function eCommerce() {
           </MyJumbotron>
           <section
             style={{
-              backgroundImage: "url('/e-commerce-service-bg.jpg')",
+              backgroundImage: "url('/seo-service-bg.jpg')",
               padding: "100px 0px 80px",
-              backgroundPosition: "center",
+              backgroundPosition: "center center",
               backgroundSize: "cover",
             }}
           >

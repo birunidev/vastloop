@@ -17,7 +17,7 @@ let contentServices = [
   },
   {
     icon: "content.svg",
-    title: "Content\nDistribution",
+    title: "Content Distribution",
     text:
       "Our content marketing services include automatic distribution of your content to social media platforms, such as Facebook, Twitter and Google Plus. For more robust content distribution, we recommend using a combination of our social media management services, social media advertising services, and/or our email marketing services. These additions will help you build an audience to promote your content too.",
   },
@@ -34,9 +34,8 @@ export default function ContentComp() {
     <Row className="justify-content-between mt-5">
       {contentServices.map((service, index) => {
         return (
-          <Col md={6} key={index}>
+          <Col md={12} key={index}>
             <StepCard
-              maxWidth={280}
               icon={service.icon}
               title={service.title}
               text={service.text}

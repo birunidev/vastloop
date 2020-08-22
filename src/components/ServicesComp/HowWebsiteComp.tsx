@@ -5,7 +5,7 @@ import { StepCard } from "./StepsComp"
 let data = [
   {
     icon: "touch.svg",
-    title: "We Make It \n Interactive",
+    title: "We Make It Interactive",
     text:
       "Because it takes less than 10 seconds for visitors to decide whether they trust your company just from your website design, our team is capable of designing creative interactive elements to keep the users engaged on your pages.",
   },
@@ -34,13 +34,8 @@ export default function HowWebsiteComp() {
     <Row className="justify-content-between mt-5">
       {data.map((web, index) => {
         return (
-          <Col md={6} key={index}>
-            <StepCard
-              maxWidth={280}
-              icon={web.icon}
-              title={web.title}
-              text={web.text}
-            />
+          <Col md={12} key={index}>
+            <StepCard icon={web.icon} title={web.title} text={web.text} />
           </Col>
         )
       })}

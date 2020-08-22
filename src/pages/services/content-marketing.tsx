@@ -44,14 +44,16 @@ export default function contentMarketing() {
                   } my-4 text-gagalin w-75 mx-auto text-white text-center`}
                 >
                   Our content writers will produce relevant content to engage
-                  your audience, build trust, and influence their purchasing
-                  decisions.
+                  your audience, build trust, and influence
+                  <span className="d-lg-block">
+                    their purchasing decisions.
+                  </span>
                 </p>
               </Container>
             </MyJumbotron>
             <section
               style={{
-                backgroundImage: "url('/email-success-bg.jpg')",
+                backgroundImage: "url('/seo-service-bg.jpg')",
                 padding: "100px 0px 80px",
                 backgroundPosition: "center",
                 backgroundSize: "cover",

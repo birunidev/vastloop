@@ -48,16 +48,8 @@ export default function ppcMarketing() {
                 front of people who are most likely to be interested in your
                 products or services.
               </p>
-              <p
-                className="h3 font-weight-bold mt-5 text-center text-white"
-                data-sal="fade"
-                data-sal-delay="0"
-                data-sal-easing="ease-out"
-                data-sal-duration="1000"
-              >
-                What we do ?
-              </p>
-              <div
+
+              {/* <div
                 className="text-center mt-4"
                 data-sal="slide-up"
                 data-sal-delay="0"
@@ -69,18 +61,7 @@ export default function ppcMarketing() {
                   alt="Big Companies Logo"
                   className="mx-auto"
                 />
-                <p
-                  className="h5 mt-3 line-height-2 text-white  center-justified w-75 mx-auto"
-                  data-sal="slide-up"
-                  data-sal-delay="1000"
-                  data-sal-easing="ease-out"
-                  data-sal-duration="1000"
-                >
-                  Vast loop uses PPC to allow brands get fast returs on
-                  investment (ROI). We have experts who can create campaigns in
-                  Google Ads, Bing Ads, social media, and more.
-                </p>
-              </div>
+              </div> */}
             </Container>
           </MyJumbotron>
           <section
@@ -92,10 +73,21 @@ export default function ppcMarketing() {
             }}
           >
             <Container>
+              <p
+                className="h5 mt-3 line-height-2 text-white  center-justified w-75 mx-auto"
+                data-sal="slide-up"
+                data-sal-delay="0"
+                data-sal-easing="ease-out"
+                data-sal-duration="1000"
+              >
+                Vast loop uses PPC to allow brands get fast returs on investment
+                (ROI). We have experts who can create campaigns in Google Ads,
+                Bing Ads, social media, and more.
+              </p>
               <h2
                 className="text-center font-weight-bold text-gagalin h1 text-white"
                 data-sal="slide-up"
-                data-sal-delay="0"
+                data-sal-delay="500"
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >

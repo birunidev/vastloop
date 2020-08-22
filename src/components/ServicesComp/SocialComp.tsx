@@ -98,18 +98,13 @@ export default function SocialComp() {
         <Row className="mt-5">
           {data.map((service, index) => {
             return (
-              <Col
-                md={6}
-                className={index === 6 && matches.medium ? "offset-3" : null}
-                key={index}
-              >
+              <Col md={12} key={index}>
                 <BlurbCommerce
                   icon={service.icon}
                   title={service.title}
                   text={service.text}
                   lists={service.lists}
                   isECommerce={true}
-                  maxWidth={260}
                 />
               </Col>
             )

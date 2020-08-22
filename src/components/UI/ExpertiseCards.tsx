@@ -11,7 +11,7 @@ export let expertise = [
   },
   {
     title:
-      '<p> <span class="text-warning">website design</span><br/> & development <p>',
+      '<p> <span class="text-warning">Website Design</span><br/> & Development <p>',
     img: "webdev.svg",
     link: "web-design-and-development",
   },
@@ -23,13 +23,13 @@ export let expertise = [
   },
   {
     title:
-      '<p> <span class="text-warning">Social media</span> marketing and advertising<p>',
+      '<p> <span class="text-warning">Social Media</span> Marketing and Advertising<p>',
     img: "socmed.svg",
     link: "social-media-marketing",
   },
   {
     title:
-      '<p> <span class="text-warning">Pay Per Click  </span><br/> ( PPC ) Marketing<p>',
+      '<p> <span class="text-warning">Pay-Per-Click  </span><br/> ( PPC ) Marketing<p>',
     img: "ppc.svg",
     link: "ppc-marketing",
   },
@@ -55,14 +55,14 @@ function ExpertiseCard({ title, img, link }) {
     <Link className="text-decoration-none" to={`/services/${link}`}>
       <div
         className="expertise-card text-center mx-auto mt-4"
-        style={{ maxWidth: 220 }}
+        style={{ maxWidth: 250 }}
       >
         <div>
           <div className="expertise-card__img">
             <img src={`/${img}`} alt={title + " icon"} />
           </div>
           <div
-            className="expertise-detail mt-4 font-weight-bold text-gagalin text-white h5"
+            className="expertise-detail mt-4 font-weight-bold text-white h5"
             dangerouslySetInnerHTML={{ __html: title }}
           ></div>
         </div>

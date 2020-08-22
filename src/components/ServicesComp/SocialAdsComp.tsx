@@ -34,13 +34,8 @@ export default function SocialAdsComp() {
     <Row className="justify-content-between mt-5">
       {data.map((step, index) => {
         return (
-          <Col md={5} key={index}>
-            <StepCard
-              title={step.title}
-              text={step.text}
-              icon={step.icon}
-              maxWidth={220}
-            />
+          <Col md={12} key={index}>
+            <StepCard title={step.title} text={step.text} icon={step.icon} />
           </Col>
         )
       })}

@@ -48,7 +48,7 @@ export default function emailMarketing() {
                 for your company.
               </p>
               <p
-                className="h3 font-weight-bold mt-5 text-center text-white"
+                className="h3 font-weight-bold mt-5 text-center text-warning"
                 data-sal="fade"
                 data-sal-delay="0"
                 data-sal-easing="ease-out"
@@ -75,7 +75,7 @@ export default function emailMarketing() {
           </MyJumbotron>
           <section
             style={{
-              backgroundImage: "url('/email-success-bg.jpg')",
+              backgroundImage: "url('/seo-service-bg.jpg')",
               padding: "100px 0px 80px",
               backgroundPosition: "center",
               backgroundSize: "cover",

@@ -95,7 +95,7 @@ const Header = () => {
         className={`custom-navbar ${scrolled ? "scrolled" : null}`}
         expand="lg"
       >
-        <Container>
+        <Container fluid>
           <div className="navbar-brand">
             <Link to="/">
               <Media
@@ -106,8 +106,9 @@ const Header = () => {
                 {matches => {
                   return (
                     <img
+                      className="logo-class"
                       src={matches.large ? "/logo-white.png" : `/${logo}`}
-                      width="190"
+                      width={matches.large ? "260" : "190"}
                       alt="Vast Loop Logo"
                     />
                   )
@@ -128,9 +129,10 @@ const Header = () => {
                       title="Services"
                       id="basic-nav-dropdown"
                     >
-                      {nav.dropdownItems.map(item => (
+                      {nav.dropdownItems.map((item, index) => (
                         <AniLink
                           className="dropdown-item"
+                          key={index}
                           to={`/services/${item.link}`}
                         >
                           {item.name}
@@ -161,12 +163,13 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Container>
+      <Container fluid>
         <p
           className=" text-white"
           style={{
             position: "absolute",
-            transform: "translateY(80px)",
+            transform: "translate(20px, 100px)",
+            fontSize: "1.6rem",
             zIndex: 9999,
           }}
         >

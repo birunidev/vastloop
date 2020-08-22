@@ -5,7 +5,7 @@ import { Row, Col } from "react-bootstrap"
 let data = [
   {
     icon: "shopify.png",
-    title: "Shopify\nDevelopment",
+    title: "Shopify Development",
     text: "Vast loop team can develop a modern looking Shopify store that is :",
     lists: [
       "Quick and easy to use",
@@ -55,14 +55,13 @@ export default function ECommerceComp() {
     <Row className="mt-5">
       {data.map((service, index) => {
         return (
-          <Col md={6} key={index}>
+          <Col md={12} key={index}>
             <BlurbCommerce
               icon={service.icon}
               title={service.title}
               text={service.text}
               lists={service.lists}
               isECommerce={true}
-              maxWidth={260}
             />
           </Col>
         )

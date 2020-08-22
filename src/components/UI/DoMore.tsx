@@ -7,7 +7,7 @@ export default function DoMore({ title }) {
       style={{ marginTop: 80 }}
       className="text-center"
       data-sal="zoom-in"
-      data-sal-delay="0"
+      data-sal-delay="1000"
       data-sal-easing="ease-out"
       data-sal-duration="1000"
     >

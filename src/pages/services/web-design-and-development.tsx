@@ -45,10 +45,9 @@ export default function webDesign() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                Vast l<span className="text-warning">oo</span>p is made of
-                specialists who can Incorporate smart and creative website
-                design ideas. These lasts can enable your brand to provide a
-                unique, and positive experience for your website visitors.
+                Vast l<span className="text-warning">oo</span>p agency can
+                enable your brand to provide a unique, and positive experience
+                for your website visitors.
               </p>
             </Container>
           </MyJumbotron>
@@ -62,7 +61,7 @@ export default function webDesign() {
           >
             <Container>
               <h2
-                className={`text-center font-weight-bold text-gagalin  text-white w-75 mx-auto ${
+                className={`text-center font-weight-bold text-gagalin text-white w-75 mx-auto ${
                   matches.large ? "h1" : "h3"
                 }`}
                 data-sal="zoom-in"
@@ -88,7 +87,7 @@ export default function webDesign() {
           >
             <Container>
               <h3
-                className="text-center font-weight-bold text-gagalin h1 text-white w-75 mx-auto"
+                className="text-center font-weight-bold text-gagalin h1 text-warning w-75 mx-auto"
                 data-sal="slide-up"
                 data-sal-delay="0"
                 data-sal-easing="ease-out"

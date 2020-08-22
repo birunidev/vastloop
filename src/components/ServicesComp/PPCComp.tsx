@@ -46,13 +46,8 @@ export default function PPCComp() {
     <Row className="mt-5">
       {data.map((ppc, index) => {
         return (
-          <Col md={4} key={index}>
-            <StepCard
-              title={ppc.title}
-              text={ppc.text}
-              icon={ppc.icon}
-              maxWidth={250}
-            />
+          <Col md={12} key={index}>
+            <StepCard title={ppc.title} text={ppc.text} icon={ppc.icon} />
           </Col>
         )
       })}
