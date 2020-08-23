@@ -114,10 +114,11 @@ export default function seo() {
                     <ul className="mt-5 ml-4">
                       <li className="text-justify d-flex justify-content-between line-height-2 my-3">
                         <span>
-                          Comprehensive analysis of your website, your
-                          competition, Search Engine visibility . Usage of a
-                          variety of methods to obtain the best keywords to
-                          drive quality traffic to your website.
+                          -Comprehensive analysis of your website,
+                          competition, and search engine visibility.
+                          - Usage of a variety of methods to obtain 
+                          the best keywords to drive quality traffic
+                          to your website.
                         </span>
                         <img
                           className="d-inline-block"
@@ -127,29 +128,29 @@ export default function seo() {
                       </li>
                       <li className="line-height-2 my-3 d-flex justify-content-between">
                         <span>
-                          Onpage optimization to improve the visibility and
-                          usability of your website in search engines.
+                          - Onpage optimization to improve the visibility and
+                          usability of your website in the search engines.
                         </span>
                         <img src="/check.svg" alt="Check Icon" />
                       </li>
                       <li className="line-height-2 my-3 d-flex justify-content-between">
                         <span>
-                          Quality inbound and internal linking to highly rank
-                          onh search.
+                          - Quality inbound and internal linkings to highly rank
+                          on search.
                         </span>
                         <img src="/check.svg" alt="Check Icon" />
                       </li>
                       <li className="line-height-2 my-3 d-flex justify-content-between">
                         <span>
-                          Meta optimization to drive more organic traffic to
+                          - Meta optimization to drive more organic traffic to
                           your website.
                         </span>
                         <img src="/check.svg" alt="Check Icon" />
                       </li>
                       <li className="line-height-2 my-3 d-flex justify-content-between">
                         <span>
-                          SEO copywriting: reporting to meet your business goals
-                          and make wise decisions that improve ROI.
+                          - SEO copywriting: reporting to meet your business goals
+                          and make wise decisions that improve the ROI.
                         </span>
                         <img src="/check.svg" alt="Check Icon" />
                       </li>
