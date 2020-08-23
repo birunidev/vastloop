@@ -25,7 +25,7 @@ let data = [
     icon: "ecommerce.svg",
     title: "Our websites are simple to navigate",
     text:
-      "If your site isn’t easy to navigate, potential leads will lose interest and exit the site before they find what they are looking for. Our WordPress sites can hold the attention of visitors . They are simple, easy to navigate,and have well organized pages.",
+      "If your site isn’t easy to navigate, potential leads will lose interest and exit the site before they find what they are looking for. Our WordPress sites can hold the attention of visitors . They are simple, easy to navigate, and have well organized pages.",
   },
 ]
 
