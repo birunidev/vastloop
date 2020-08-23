@@ -13,7 +13,7 @@ let contentServices = [
     icon: "subs.svg",
     title: "Content development",
     text:
-      "The content that we develop will be unique to your business and published to your website. All content must be published to a WordPress blog or similar CMS. If your content is hosted on another website, we can create a WordPress blog for you and add it to your website.",
+      "The content that we develop will be unique to your business and published to your website. All contents will be published to a WordPress blog or a similar CMS. If your content is hosted on another website, we can create a WordPress blog and add it to your website.",
   },
   {
     icon: "content.svg",
@@ -25,7 +25,7 @@ let contentServices = [
     icon: "subscription.svg",
     title: "Content marketing strategy",
     text:
-      "The first step our content marketing agency will take with your business is to craft a unique strategy. We will research your buyer’s persona, and learn more about your customers. This will help us write content that appeals to them. In addition, we will develop a blog calendar, allowing you to see what topics we will be writing about and when they will be published. Finally, before publishing any deliverables, we will send all content to you in advance for you to approve.",
+      "The first step our content marketing agency will take with your business is to craft a unique strategy. We will research your buyer’s persona, and learn more about your customers. This will help us write a content that appeals to them. In addition, we will develop a blog calendar, allowing you to see what topics we will be writing about and when they will be published. Finally, before publishing any deliverables, we will send all the contents to you in advance  to approve.",
   },
 ]
 
