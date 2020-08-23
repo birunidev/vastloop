@@ -8,10 +8,10 @@ let data = [
     detail:
       " We will design an SEO strategy that suits your unique business, and identifies the following:",
     lists: [
-      " Keywords your potential customers search for",
-      "Level of competition for those keywords, and which ones attract buyers",
-      "SEO Optimization your competitors use and how to beat them",
-      "How to improve your rankings and qualified traffic by buildingquality inbound links",
+      " Keywords that your potential customers search for.",
+      "Level of competition for those keywords, and which ones attract buyers.",
+      "SEO Optimization your competitors use and how to beat them.",
+      "How to improve your rankings and qualified traffic by building quality inbound links.",
       "How to achieve long term, sustainable top rankings and business goals.",
     ],
   },
@@ -19,7 +19,7 @@ let data = [
     icon: "software-development.svg",
     title: "Local SEO services",
     detail:
-      " If you have a local business , we will make sure that your local audience easily finds your website in Google!. We will also create and maintain an awesome Google My Business account and get the most out of your listings, and good rankings.",
+      " If you have a local business, we will make sure that your local audience easily finds your website in Google. We will also create and maintain an awesome Google My Business account and get the most out of your listings, and good rankings.",
   },
   {
     icon: "internet.svg",
@@ -39,9 +39,9 @@ let data = [
     detail:
       "We can increase the number of visitors who take the profitable action you want on your website. We analyze their behaviors, needs, and experiences. Which means we use CRO in a way that combines technical elements with the psychology of your potential customers. Among the results our team can help you achieve:",
     lists: [
-      "Leading to more time spent on your website",
-      "Allowing you to get ahead of your competitors",
-      "Diminishing the costs of PPC advertising through getting most of the clicks via CRO",
+      "Leading to more time spent on your website.",
+      "Allowing you to get ahead of your competitors.",
+      "Diminishing the costs of PPC advertising through getting most of the clicks via CRO.",
       "Making decisions based on proven data.",
     ],
   },
