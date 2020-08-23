@@ -85,7 +85,7 @@ export default function socialMediaMarketing() {
                         matches.large ? "h4" : "h5"
                       }`}
                     >
-                      Original Feed creation.
+                      Original feed creation.
                     </p>
                   </div>
                 </Col>
