@@ -7,74 +7,74 @@ import Media from "react-media"
 let data = [
   {
     icon: "electronics.svg",
-    title: "Facebook Marketing",
+    title: "Facebook marketing.",
     text:
       "Facebook is the #1 social media platform used by businesses to interact and engage with their customers. \n We offer : ",
     lists: [
-      "Facebook Strategy Development.",
-      "Facebook original Feed Creation.",
-      "Facebook Page Growth.",
-      "Facebook management Reporting.",
+      "- Facebook strategy development.",
+      "- Facebook original feed creation.",
+      "- Facebook page growth.",
+      "- Facebook management reporting.",
     ],
   },
   {
     icon: "ig-service.svg",
-    title: "Instagram Marketing",
+    title: "Instagram marketing.",
     text:
-      "We use Instagram to enable brands to humanize their content, showcase products, and inspire their audience.\n We offer : ",
+      "We use Instagram to enable brands to humanize their contents, showcase products, and inspire their audiences.\n We offer : ",
     lists: [
-      "Instagram Marketing Strategy",
-      "Instagram Page Growth",
-      "Instagram original feed creation",
-      "Instagram Management Reporting",
+      "- Instagram marketing strategy.",
+      "- Instagram page growth.",
+      "- Instagram original feed creation.",
+      "- Instagram management reporting.",
     ],
   },
   {
     icon: "in-service.svg",
-    title: "LinkedIn Marketing",
+    title: "LinkedIn marketing.",
     text:
       "Linkedin marketing enables us to generate leads to our clients, and establish strategic partnerships. \n Our services include :",
     lists: [
-      "LinkedIn Marketing Strategy",
-      "LinkedIn original Content Creation",
-      "LinkedIn Management Reporting",
-      "LinkedIn Monitoring",
+      "- LinkedIn marketing strategy.",
+      "- LinkedIn original content creation.",
+      "- LinkedIn management reporting.",
+      "- LinkedIn monitoring.",
     ],
   },
   {
     icon: "twitter-service.svg",
-    title: "Twitter Marketing",
+    title: "Twitter marketing.",
     text:
-      "We can help businesses to build trust and relationship with their target audiences through Twitter Marketing.\n Our services are :",
+      "We can help businesses to build trust and relationships with their target audiences through Twitter marketing.\n Our services are :",
     lists: [
-      "Twitter Marketing Strategy",
-      "Twitter Marketing Reporting",
-      "Twitter original Content Creation",
-      "Twitter Monitoring",
+      "- Twitter marketing strategy.",
+      "- Twitter marketing reporting.",
+      "-Twitter original content creation.",
+      "- Twitter monitoring.",
     ],
   },
   {
     icon: "youtube-service.svg",
-    title: "Youtube marketing",
+    title: "Youtube marketing.",
     text:
-      "We offer YouTube marketing services to present a unique content that attracts viewers and let them consume and share it. \n Our services include :",
+      "We offer YouTube marketing services to present a unique content that attracts viewers and lets them consume and share it. \n Our services include :",
     lists: [
-      "Video Optimization",
-      "Original Video content",
-      "Video reporting",
-      "Videos channel Customization",
+      "- Video optimization.",
+      "- Original video contents.",
+      "- video reporting.",
+      "- Videos channel customization.",
     ],
   },
   {
     icon: "pin-service.svg",
-    title: "Pinterest Marketing",
+    title: "Pinterest marketing.",
     text:
-      "We Implement the best Pinterest marketing service to increase your business sales and brand awareness. \nWe offer :",
+      "We implement the best Pinterest marketing service to increase your business sales and brand awareness. \nWe offer :",
     lists: [
-      "Pinterest Marketing Strategy",
-      "Pinterest Management Reporting",
-      "Pinterest Pin Creation",
-      "Pinterest Optimization",
+      "- Pinterest marketing strategy.",
+      "- Pinterest management reporting.",
+      "- Pinterest pin creation.",
+      "- Pinterest optimization.",
     ],
   },
   {
@@ -83,10 +83,10 @@ let data = [
     text:
       "Tiktok allows your audience to explore different aspects of your business, such as what makes you fun and interesting. \n We offer  :",
     lists: [
-      "TikTok Marketing Strategy",
-      "TikTok management Reporting",
-      "Tiktok original videos creation",
-      "TikTok optimization",
+      "- TikTok marketing strategy.",
+      "- TikTok management reporting.",
+      "- Tiktok original videos creation.",
+      "- TikTok optimization.",
     ],
   },
 ]
