@@ -7,7 +7,7 @@ let whychooses = [
   {
     icon: "why-1.svg",
     text:
-      "Cost effective: you can have access to a full team of professionals. No matter how is the size of your brand, we will produce a budget that suits the specific requirements of your business.",
+      "We are cost effective: you can have access to a full team of professionals. No matter how is the size of your brand, we will produce a budget that suits the specific requirements of your business.",
   },
   {
     icon: "why-2.svg",
@@ -17,12 +17,12 @@ let whychooses = [
   {
     icon: "why-3.svg",
     text:
-      "You save money and time with us: we work with you to determine your marketing goals , then set your budget to your immediate needs. You can focus on other business operating while making sure we are growing your brand.",
+      "You save money and time with us: we work with you to determine your marketing goals , then set your budget to your immediate needs. You can focus on other business tasks while making sure we are growing your brand.",
   },
   {
     icon: "why-4.svg",
     text:
-      "Vast loop agency cooperates with distributers and agents  who can represent your brand in other countries, and  globally grow your business.",
+      "Vast loop agency cooperates with distributers and agents who can represent your brand in other countries, and  globally grow your business.",
   },
 ]
 
