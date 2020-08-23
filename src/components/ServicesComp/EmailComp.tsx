@@ -5,7 +5,7 @@ import { StepCard } from "./StepsComp"
 let data = [
   {
     icon: "friends.svg",
-    title: "Welcome email",
+    title: "Welcome emails:",
     text:
       "They are a great way to show your audience that you’ve received their requests and that you’re excited to have them as a part of your subscriber list.",
   },
