@@ -6,17 +6,17 @@ let steps = [
     icon: "sketch.svg",
     title: "Brand architecture",
     text:
-      "Vast loop agency creates an organized structure of the companies’ brands, sub-brands, products and services to show how they are connected like a family tree: each member is related, but unique.",
+      "Vast loop agency creates an organized structure of the companies’ brands, sub-brands, products, and services to show how they are connected like a family tree: each member is related, but unique.",
   },
   {
     icon: "paint.svg",
-    title: "Visual Identity",
+    title: "Visual identity",
     text:
       "We provide imagery and graphical informations that distinguish the brand in consumers' minds:  we analyze the brand, its market, goals, customers, and message, then we create a positive brand image that brings in consistent sales and business growth.",
   },
   {
     icon: "coin.svg",
-    title: "New Logo",
+    title: "New logo",
     text:
       "Our graphic designers and art directors can create an appealing and memorable logo that expresses your brand’s personality.",
   },
