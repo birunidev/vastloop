@@ -203,7 +203,7 @@ export default function socialMediaMarketing() {
               >
                 Vast l<span className="text-warning">oo</span>p helps you reach
                 your target audience through social media advertising. We make
-                sure that campaigns are continuously optimized and result in
+                sure that our campaigns are continuously optimized and result in
                 profitable returns.
               </p>
             </Container>
