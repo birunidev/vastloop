@@ -6,7 +6,7 @@ let data = [
   {
     img: "ranking.svg",
     text:
-      "Increase the rankings for your website and your Google My Business (GMB) listing.",
+      "Increase the rankings of your website and your Google My Business (GMB) listing.",
   },
   {
     img: "problem.svg",
