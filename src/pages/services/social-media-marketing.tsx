@@ -167,7 +167,7 @@ export default function socialMediaMarketing() {
                 data-sal-duration="1000"
               >
                 Our <span className="text-warning">social media marketing</span>{" "}
-                Services.
+                Services:
               </h2>
               <SocialComp />
             </Container>
@@ -225,7 +225,7 @@ export default function socialMediaMarketing() {
                 data-sal-duration="1000"
               >
                 Our <span className="text-warning"> social media ads</span>{" "}
-                Services.
+                Services:
               </h2>
               <SocialAdsComp />
             </Container>
