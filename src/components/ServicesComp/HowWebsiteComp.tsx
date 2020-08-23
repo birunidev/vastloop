@@ -13,7 +13,7 @@ let data = [
     icon: "graphic-design.svg",
     title: "We use original illustrations",
     text:
-      "Because it takes less than 10 seconds for visitors to decide whether they trust your company just from your website design, our team is capable of designing creative interactive elements to keep the users engaged on your pages.",
+      "Our creative graphic designers can create original illustrations that show a unique brand personality, and develop a unified visual experience for your website.",
   },
   {
     icon: "computer.svg",

@@ -21,7 +21,7 @@ export default function ourTeam() {
               description="We make you different, unique, and identifiable by others. Why Choose us ? Cost effective : you can have access to a full team of professionals. ..."
             />
             <MyJumbotron background="/team-bg.jpg">
-              <Container>
+              <Container fluid>
                 <h1
                   className="h1 font-weight-bold text-gagalin text-warning text-center"
                   data-sal="slide-up"
@@ -50,7 +50,7 @@ export default function ourTeam() {
                 >
                   <img
                     src="/team-icon.svg"
-                    width={90}
+                    width={200}
                     className="mx-auto"
                     alt="Team Icon"
                   />

@@ -3,39 +3,40 @@ import { Row, Col } from "react-bootstrap"
 
 let data = [
   {
-    img: "1.jpg",
-    name: "Antonia",
-    position: "Project Manager",
-  },
-  {
     img: "2.jpg",
     name: "Jessy",
-    position: "Founder and Content Writer",
+    position: "Agency Founder and content writer.",
   },
+  {
+    img: "1.jpg",
+    name: "Antonia",
+    position: "Project manager.",
+  },
+
   {
     img: "3.jpg",
     name: "Marry",
-    position: "Strategist",
+    position: "Strategist.",
   },
   {
     img: "4.jpg",
     name: "Sisca",
-    position: "Graphic Designer",
+    position: "Graphic designer.",
   },
   {
     img: "5.jpg",
     name: "Eric",
-    position: "Social Media Manager",
+    position: "Social media manager.",
   },
   {
     img: "6.jpg",
     name: "Jack",
-    position: "SEO Specialist",
+    position: "SEO specialist.",
   },
   {
     img: "7.jpg",
     name: "Ibrahim",
-    position: "Pay Per Click Manager",
+    position: "Pay-per-click manager.",
   },
   // {
   //   img: "10.jpg",
@@ -45,12 +46,12 @@ let data = [
   {
     img: "8.jpg",
     name: "James",
-    position: "Email Marketing / Marketing Automation Specialist",
+    position: "Email marketing / marketing automation specialist.",
   },
   {
     img: "9.jpg",
     name: "Jelita",
-    position: "Front-End Developer",
+    position: "Front-end developer.",
   },
 ]
 

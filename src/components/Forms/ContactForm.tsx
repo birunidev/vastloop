@@ -70,7 +70,29 @@ export default function ContactForm() {
       message: "",
     },
     onSubmit: values => {
-      alert(JSON.stringify(values))
+      let data = {
+        full_name: values.full_name,
+        email: values.email,
+        company: values.company,
+        services: values.services,
+        message: values.message,
+      }
+      fetch("https://vastloop-contact.herokuapp.com/contact", {
+        headers: {
+          "Content-Type": "Application/json",
+          mode: "no-cors",
+        },
+        method: "POST",
+        body: JSON.stringify(data),
+      })
+        .then(res => {
+          alert("Success sending your message")
+          console.log(res)
+        })
+        .catch(err => {
+          alert("Error sending your message")
+          console.log(err)
+        })
     },
     validationSchema: ContactScheme,
   })
@@ -124,7 +146,7 @@ export default function ContactForm() {
           <label htmlFor="full_name">
             <img src={`/services.svg`} alt={`Services Icon`} />
           </label>
-          <select name="services" id="service">
+          <select name="services" id="service" onChange={formik.handleChange}>
             <option value="none">SERVICES YOU ARE INTERESTED IN</option>
             {expertise.map((service, index) => {
               return (

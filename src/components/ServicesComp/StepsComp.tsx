@@ -6,19 +6,19 @@ let steps = [
     icon: "sketch.svg",
     title: "Brand architecture",
     text:
-      "Vast loop agency creates an organized structure of the companies’ brands ,sub-brands, products and services to show how they are connected like a family tree : each member is related, but unique.",
+      "Vast loop agency creates an organized structure of the companies’ brands, sub-brands, products and services to show how they are connected like a family tree: each member is related, but unique.",
   },
   {
     icon: "paint.svg",
     title: "Visual Identity",
     text:
-      "We provide imagery and graphical information that distinguish the brand in consumers' minds:  we analyze the brand, its market,goals, customers, and message, then we create a positive brand image that brings in consistent sales and business growth.",
+      "We provide imagery and graphical informations that distinguish the brand in consumers' minds:  we analyze the brand, its market, goals, customers, and message, then we create a positive brand image that brings in consistent sales and business growth.",
   },
   {
     icon: "coin.svg",
     title: "New Logo",
     text:
-      "Our graphic designers, and art directors can create an appealing, and memorable logo that expresses your brand’s personality.",
+      "Our graphic designers and art directors can create an appealing and memorable logo that expresses your brand’s personality.",
   },
   {
     icon: "industry.svg",
@@ -30,13 +30,13 @@ let steps = [
     icon: "blog.svg",
     title: "Go to market strategy",
     text:
-      "Vast loop agency creates an organized structure of the companies’ brands, sub-brands, products and services to show how they are connected like a family tree : each member is related, but unique.",
+      "We have experts able to create a unique action plan that specifies how to reach your target customers: This includes marketing, a sales method, your ideal customer base, an attractive price, and the unique problem your product solves or improves",
   },
   {
     icon: "support.svg",
     title: "Messaging",
     text:
-      "We make your messaging sound conversational and reflecting to your brand’s personality. our tactics make your target audience feel an emotional connection to your product or service.",
+      "We make your messaging sound conversational and reflecting to your brand’s personality. Our tactics make your target audience feel an emotional connection to your product or service.",
   },
 ]
 
