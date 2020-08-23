@@ -13,7 +13,7 @@ let data = [
     icon: "research.svg",
     title: "We research your industry",
     text:
-      "We get all the necessary knowledge  about your industry to create a successful email marketing campaign: we will know details like how much people spend in your industry yearly, how your industry stacks up in the scheme of ecommerce, and more.",
+      "We get all the necessary knowledge  about your industry to create a successful email marketing campaign: we will know details like how much people spend in your industry yearly, how your industry stacks up in the scheme of Ecommerce, and more.",
   },
   {
     icon: "cinema.svg",
