@@ -35,8 +35,8 @@ const IndexPage = () => (
         data-sal-easing="ease"
         data-sal-duration="1000"
       >
-        From building unique digital strategies, and tactics to optimizing
-        <br /> for the best results, and globally expanding your business.
+        From building unique digital strategies and tactics to optimizing
+        <br /> for the best results and globally expanding your business.
       </p>
       <div className="text-center my-5">
         <AniLink

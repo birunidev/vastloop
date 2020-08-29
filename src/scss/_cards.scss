@@ -219,12 +219,50 @@
 
 .team-card {
   &__img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+.partner-pic-wrapper {
+  max-width: 80px;
+
+  @include tablet {
+    max-width: 200px;
+  }
+  @include large-tablet {
+    max-width: 280px;
+  }
+
+  &:nth-child(1) {
+    @include tablet {
+      max-width: 210px;
+    }
+    @include large-tablet {
+      max-width: 230px;
+    }
+  }
+
+  &:nth-child(2) {
+    @include tablet {
+      max-width: 80px;
+    }
+    @include large-tablet {
+      max-width: 120px;
+    }
+  }
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  img {
+    width: 100%;
   }
 }

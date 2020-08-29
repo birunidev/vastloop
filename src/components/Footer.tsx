@@ -52,32 +52,8 @@ export default function Footer() {
                 </li>
               </ul>
             </Col>
-            <Col md={5} lg={2}>
-              <ul className="mt-5">
-                <li className="mb-3">
-                  <Link className="text-white" to="/our-team">
-                    Our Team
-                  </Link>
-                </li>
-                <li className="mb-3">
-                  <Link className="text-white" to="/about">
-                    Terms of Agreement
-                  </Link>
-                </li>
-                <li className="mb-3">
-                  <Link className="text-white" to="/about">
-                    Privacy Policy
-                  </Link>
-                </li>
-                <li className="mb-3">
-                  <Link className="text-white" to="/sitemap.xml">
-                    Sitemap
-                  </Link>
-                </li>
-              </ul>
-            </Col>
 
-            <Col md={5} lg={2}>
+            <Col md={5} lg={3}>
               <ul className="mt-5">
                 <li className="d-flex">
                   <img className="d-block" src="/location.svg" alt="Map Icon" />
@@ -85,7 +61,7 @@ export default function Footer() {
                 </li>
                 <li className="d-flex mt-3">
                   <img className="d-block" src="/phone.svg" alt="Phone Icon" />
-                  <span className="ml-3">(704) 555-0127</span>
+                  <span className="ml-3">+62 821-4445-7053</span>
                 </li>
                 <li className="d-flex mt-3">
                   <img
@@ -93,7 +69,7 @@ export default function Footer() {
                     src="/mail-icon.svg"
                     alt="Mail Icon"
                   />
-                  <span className="ml-3">mail@vastloop.com</span>
+                  <span className="ml-3">vastloop1@gmail.com</span>
                 </li>
               </ul>
             </Col>

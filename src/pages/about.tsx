@@ -4,6 +4,9 @@ import MyJumbotron from "./../components/MyJumbotron"
 import { Container } from "react-bootstrap"
 import WhyChooseCards from "../components/UI/WhyChooseCards"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
+import ScrollDown from "../components/UI/ScrollDown"
+import { scrollTo } from "gatsby-plugin-smoothscroll"
 
 export default function about() {
   return (
@@ -33,7 +36,7 @@ export default function about() {
             We make you different, unique, and identifiable by others.
           </p>
           <p
-            className="h5 mt-5 line-height-2 text-white font-weight-600 text-center w-75 mx-auto"
+            className="h5 mt-5 line-height-2 text-white text-gagalin font-weight-600 text-center w-75 mx-auto"
             data-sal="zoom-in"
             data-sal-delay="2000"
             data-sal-easing="ease"
@@ -41,12 +44,16 @@ export default function about() {
           >
             if your brand still does not meet the level of success and brand
             awareness you want, we are here to provide you with unique
-            strategies that will transform your company. Vast loop agency is the
-            lifeblood of your business.
+            strategies that will transform your company.{" "}
+            <span className="text-warning">
+              Vast loop agency is the lifeblood of your business.
+            </span>
           </p>
+          <ScrollDown toScroll="#why-choose-about" />
         </Container>
       </MyJumbotron>
       <section
+        id="why-choose-about"
         style={{
           backgroundImage: "url('/why-choose-us-blue.jpg')",
           padding: "100px 0px 150px",
@@ -65,6 +72,14 @@ export default function about() {
             Why <span className="text-warning">Choose us</span> ?
           </h3>
           <WhyChooseCards />
+          <div className="text-center">
+            <Link
+              className="mt-5 btn btn-warning btn-lg font-weight-bold"
+              to="/our-team"
+            >
+              Click to get to know our team
+            </Link>
+          </div>
         </Container>
       </section>
     </Layout>

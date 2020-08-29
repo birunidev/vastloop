@@ -11,8 +11,7 @@ export default function contact() {
     <Layout>
       <SEO
         title="Contact"
-        description="Feel free to contact us for any 
-        digital marketing services"
+        description="Feel free to contact us for our services"
       />
       <MyJumbotron background="/contact-us-bg.jpg" classes="bg-center">
         <Container>
@@ -34,8 +33,7 @@ export default function contact() {
           >
             Feel free to contact us{" "}
             <span className="d-lg-block">
-              for any <span className="text-warning">digital marketing</span>{" "}
-              services.
+              for <span className="text-warning">our services.</span>{" "}
             </span>
           </p>
           <Row className="justify-content-center">

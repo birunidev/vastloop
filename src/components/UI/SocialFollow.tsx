@@ -19,7 +19,7 @@ export default function SocialFollow() {
           data-sal-easing="ease"
           data-sal-duration="1000"
         >
-          Follow Our <span className="text-warning">Social Media</span>
+          Follow Our <span className="text-warning">Social Media:</span>
         </p>
         <Row className="mt-6">
           <Col
@@ -34,9 +34,9 @@ export default function SocialFollow() {
                 <div className="social-follow-img">
                   <img src="/fb-follow.svg" alt="Facebook Icon" />
                 </div>
-                <p className="h2 font-weight-bold text-warning">Like Us</p>
+                <p className="h2 font-weight-bold text-warning">Like Us.</p>
                 <p className="font-weight-600 text-white h5">
-                  to stay in touch!
+                  To stay in touch!
                 </p>
               </div>
             </a>
@@ -53,9 +53,9 @@ export default function SocialFollow() {
                 <div className="social-follow-img">
                   <img src="/ig-follow.svg" alt="Facebook Icon" />
                 </div>
-                <p className="h2 font-weight-bold text-warning">Follow Us</p>
+                <p className="h2 font-weight-bold text-warning">Follow Us.</p>
                 <p className="font-weight-600 text-white h5">
-                  to get the latest!
+                  To get the latest!
                 </p>
               </div>
             </a>
@@ -72,9 +72,9 @@ export default function SocialFollow() {
                 <div className="social-follow-img">
                   <img src="/linkedin-follow.svg" alt="Facebook Icon" />
                 </div>
-                <p className="h2 font-weight-bold text-warning">Connect Us</p>
+                <p className="h2 font-weight-bold text-warning">Connect Us.</p>
                 <p className="font-weight-600 text-white h5">
-                  company {"&"} industry news!
+                  Company {"&"} industry news!
                 </p>
               </div>
             </a>

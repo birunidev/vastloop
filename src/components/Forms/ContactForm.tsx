@@ -1,8 +1,9 @@
-import React from "react"
+import React, { useState } from "react"
 import { useFormik } from "formik"
 import { ContactScheme } from "./../../utils/validation"
+import SuccessUI from "./../UI/SuccessUI"
 
-let expertise = [
+export let expertise = [
   "Brand Strategy Implementation",
   "Website Design & Development",
   "Search Engine Optimization",
@@ -61,10 +62,13 @@ const FormInput = ({
 }
 
 export default function ContactForm() {
+  const [success, setSuccess] = useState(false)
+
   const formik = useFormik({
     initialValues: {
       full_name: "",
       email: "",
+      phone_number: "",
       company: "",
       services: "",
       message: "",
@@ -73,6 +77,7 @@ export default function ContactForm() {
       let data = {
         full_name: values.full_name,
         email: values.email,
+        phone_number: values.phone_number,
         company: values.company,
         services: values.services,
         message: values.message,
@@ -86,8 +91,10 @@ export default function ContactForm() {
         body: JSON.stringify(data),
       })
         .then(res => {
-          alert("Success sending your message")
-          console.log(res)
+          setSuccess(true)
+          setTimeout(() => {
+            window.location.reload()
+          }, 3000)
         })
         .catch(err => {
           alert("Error sending your message")
@@ -97,7 +104,9 @@ export default function ContactForm() {
     validationSchema: ContactScheme,
   })
 
-  return (
+  return success ? (
+    <SuccessUI />
+  ) : (
     <form
       className="contact-form-custom"
       onSubmit={formik.handleSubmit}
@@ -129,6 +138,17 @@ export default function ContactForm() {
         placeholder="EMAIL ADDRESS"
         type="text"
         error={formik.errors.email}
+      />
+      <FormInput
+        name="phone_number"
+        id="phone_number"
+        handleChange={formik.handleChange}
+        value={formik.values.phone_number}
+        label="Phone number"
+        icon="phone-yellow.svg"
+        placeholder="PHONE NUMBER"
+        type="text"
+        error={formik.errors.phone_number}
       />
       <FormInput
         name="company"

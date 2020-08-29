@@ -6,6 +6,8 @@ import ContentComp from "./../../components/ServicesComp/ContentComp"
 import Media from "react-media"
 import { GLOBAL_MEDIA_QUERIES } from "../../components/layout"
 import SEO from "../../components/seo"
+import DoMore from "../../components/UI/DoMore"
+import ScrollDown from "../../components/UI/ScrollDown"
 
 export default function contentMarketing() {
   return (
@@ -49,9 +51,11 @@ export default function contentMarketing() {
                     their purchasing decisions.
                   </span>
                 </p>
+                <ScrollDown toScroll="#content-services" />
               </Container>
             </MyJumbotron>
             <section
+              id="content-services"
               style={{
                 backgroundImage: "url('/seo-service-bg.jpg')",
                 padding: "100px 0px 80px",
@@ -69,14 +73,13 @@ export default function contentMarketing() {
                   data-sal-easing="ease-out"
                   data-sal-duration="1000"
                 >
-                  How do we use{" "}
-                  <span className="text-warning">email marketing</span>{" "}
-                  <span className="d-lg-block">
-                    {" "}
-                    to create successful strategies ?
-                  </span>
+                  Our <span className="text-warning">content marketing</span>{" "}
+                  services:
                 </h2>
                 <ContentComp />
+                <div className="mt-4">
+                  <DoMore title="Content marketing" />
+                </div>
               </Container>
             </section>
           </Layout>

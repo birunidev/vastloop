@@ -8,12 +8,24 @@
   white-space: pre-line;
 }
 
-$font-size-base: 1.35rem;
+// $font-size-base: 1rem;
+
+// @media (min-width: 768px) {
+//   $font-size-base: 1.35rem;
+// }
 
 $theme-color: (
   "primary": $primary,
   "warning": $warning,
 );
+
+html {
+  scroll-behavior: smooth;
+  font-size: 1.1rem;
+  @include tablet {
+    font-size: 1.35rem;
+  }
+}
 
 @import "~bootstrap/scss/bootstrap.scss";
 @import "./navbar";
@@ -32,10 +44,6 @@ ul {
 a {
   text-decoration: none;
   color: $primary;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -102,4 +110,20 @@ body {
 
 .cursor-pointer {
   cursor: pointer;
+}
+.scroll-down {
+  position: relative;
+}
+
+.animate-scroll {
+  animation: scroll_down 0.5s ease-in infinite alternate;
+}
+
+@keyframes scroll_down {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }

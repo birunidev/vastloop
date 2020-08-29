@@ -8,7 +8,7 @@ let data = [
     detail:
       " We will design an SEO strategy that suits your unique business, and identifies the following:",
     lists: [
-      " Keywords that your potential customers search for.",
+      "Keywords that your potential customers search for.",
       "Level of competition for those keywords, and which ones attract buyers.",
       "SEO Optimization your competitors use and how to beat them.",
       "How to improve your rankings and qualified traffic by building quality inbound links.",
@@ -50,7 +50,7 @@ let data = [
 function SeoBlurb({ isEven, icon, lists, detail, title }) {
   return (
     <div
-      style={{ margin: "5em 0em" }}
+      style={{ margin: "5em 0em 3em" }}
       className={`seo-blurb row justify-content-between align-items-center ${
         isEven ? "flex-lg-row-reverse" : null
       }`}

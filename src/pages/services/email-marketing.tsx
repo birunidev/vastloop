@@ -7,6 +7,7 @@ import EmailComp from "./../../components/ServicesComp/EmailComp"
 import DoMore from "../../components/UI/DoMore"
 import Media from "react-media"
 import SEO from "../../components/seo"
+import ScrollDown from "../../components/UI/ScrollDown"
 
 export default function emailMarketing() {
   return (
@@ -47,33 +48,11 @@ export default function emailMarketing() {
                 develop, launch, and manage a custom email marketing strategy
                 for your company.
               </p>
-              <p
-                className="h3 font-weight-bold mt-5 text-center text-gagalin text-warning"
-                data-sal="fade"
-                data-sal-delay="0"
-                data-sal-easing="ease-out"
-                data-sal-duration="1000"
-              >
-                What we do ?
-              </p>
-              <p
-                className={`h5 mt-3 line-height-2 text-white  center-justified ${
-                  matches.large && "w-75"
-                } mx-auto`}
-                data-sal="slide-up"
-                data-sal-delay="500"
-                data-sal-easing="ease-out"
-                data-sal-duration="1000"
-              >
-                Vast loop agency has specialists capable of developing
-                strategic, high-performing marketing campaigns for its
-                e-commerce clients. We use our experience, platforms, and
-                effective tools to deliver massive results for growing online
-                stores.
-              </p>
+              <ScrollDown toScroll="#email-service" />
             </Container>
           </MyJumbotron>
           <section
+            id="email-service"
             style={{
               backgroundImage: "url('/seo-service-bg.jpg')",
               padding: "100px 0px 80px",
@@ -83,7 +62,7 @@ export default function emailMarketing() {
           >
             <Container fluid>
               <h2
-                className="text-center font-weight-bold text-gagalin h1 text-white"
+                className={`text-center font-weight-bold text-gagalin h1 text-white`}
                 data-sal="slide-up"
                 data-sal-delay="0"
                 data-sal-easing="ease-out"
@@ -94,9 +73,11 @@ export default function emailMarketing() {
                 create successful strategies ?
               </h2>
               <EmailSuccessComp />
+              <ScrollDown toScroll="#email-strategy" />
             </Container>
           </section>
           <section
+            id="email-strategy"
             style={{
               backgroundImage: "url('/email-services-bg.jpg')",
               padding: "100px 0px 80px",

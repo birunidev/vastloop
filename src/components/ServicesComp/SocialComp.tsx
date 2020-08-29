@@ -49,7 +49,7 @@ let data = [
     lists: [
       "- Twitter marketing strategy.",
       "- Twitter marketing reporting.",
-      "-Twitter original content creation.",
+      "- Twitter original content creation.",
       "- Twitter monitoring.",
     ],
   },
@@ -61,7 +61,7 @@ let data = [
     lists: [
       "- Video optimization.",
       "- Original video contents.",
-      "- video reporting.",
+      "- Video reporting.",
       "- Videos channel customization.",
     ],
   },

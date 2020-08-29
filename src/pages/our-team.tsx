@@ -17,11 +17,14 @@ export default function ourTeam() {
         return (
           <Layout>
             <SEO
-              title="About Us"
-              description="We make you different, unique, and identifiable by others. Why Choose us ? Cost effective : you can have access to a full team of professionals. ..."
+              title="Our Team"
+              description="Vast loop agency hires award-winning specialists who will hit
+              your goals, and take your business to the next level. We are
+              passionate about growing brands and getting real results
+              online. ..."
             />
             <MyJumbotron background="/team-bg.jpg">
-              <Container fluid>
+              <Container>
                 <h1
                   className="h1 font-weight-bold text-gagalin text-warning text-center"
                   data-sal="slide-up"
@@ -32,15 +35,20 @@ export default function ourTeam() {
                   Meet Our Team.
                 </h1>
                 <p
-                  className="h3 font-weight-600 text-white mb-5 text-center"
+                  className="h3 text-gagalin font-weight-600 text-white mb-5 text-center"
                   style={{ marginTop: 60 }}
                   data-sal="slide-down"
                   data-sal-delay="0"
                   data-sal-easing="ease-out"
                   data-sal-duration="1000"
                 >
-                  Some Text Here:
+                  Vast loop agency hires award-winning specialists who will hit
+                  your goals, and take your business to the next level. We are
+                  passionate about growing brands and getting real results
+                  online.
                 </p>
+              </Container>
+              <Container fluid>
                 <div
                   className="text-center mb-5"
                   data-sal="slide-down"

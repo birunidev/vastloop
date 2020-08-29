@@ -77,7 +77,7 @@ export default function ExpertiseCards() {
       {expertise.map((exp, index) => {
         return (
           <Col
-            md={3}
+            md={6}
             lg={3}
             key={index}
             data-sal="slide-up"

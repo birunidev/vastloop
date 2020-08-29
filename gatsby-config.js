@@ -35,6 +35,14 @@ module.exports = {
         once: false,
       },
     },
+    `gatsby-plugin-smoothscroll`,
+    {
+      resolve: `gatsby-plugin-tawk`,
+      options: {
+        tawkId: "5f42893b1e7ade5df44336c3",
+        // get this from the tawk script widget
+      },
+    },
     `gatsby-plugin-transition-link`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

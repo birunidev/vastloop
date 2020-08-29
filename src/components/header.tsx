@@ -20,6 +20,12 @@ const navigations = [
     hasDropdown: false,
   },
   {
+    id: "nav-5",
+    name: "Our team",
+    slug: "our-team",
+    hasDropdown: false,
+  },
+  {
     id: "nav-3",
     name: "Services",
     slug: "services",
@@ -153,12 +159,13 @@ const Header = () => {
                   )
                 }
               })}
-              <button
-                type="button"
+              <a
+                href="https://tawk.to/chat/5f42893b1e7ade5df44336c3/default"
+                target="_blank"
                 className="btn btn-warning text-dark font-weight-bold"
               >
                 Let's Chat
-              </button>
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -57,6 +57,9 @@
 .logo-class {
   width: 230px;
   @include tablet {
+    width: 300px;
+  }
+  @include desktop {
     width: 400px;
   }
 }

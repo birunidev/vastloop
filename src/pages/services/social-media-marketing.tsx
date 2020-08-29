@@ -6,6 +6,8 @@ import { Container, Row, Col } from "react-bootstrap"
 import SocialComp from "../../components/ServicesComp/SocialComp"
 import SocialAdsComp from "../../components/ServicesComp/SocialAdsComp"
 import SEO from "../../components/seo"
+import DoMore from "./../../components/UI/DoMore"
+import ScrollDown from "../../components/UI/ScrollDown"
 
 export default function socialMediaMarketing() {
   return (
@@ -25,7 +27,7 @@ export default function socialMediaMarketing() {
                     : matches.medium
                     ? "display-4"
                     : "h1"
-                } mt-n3 mb-5 text-warning text-gagalin text-center`}
+                } mt-n1 mb-5 text-warning text-gagalin text-center`}
                 data-sal="slide-up"
                 data-sal-delay="0"
                 data-sal-easing="ease-out"
@@ -148,9 +150,11 @@ export default function socialMediaMarketing() {
                   </div>
                 </Col>
               </Row>
+              <ScrollDown toScroll="#social-services" />
             </Container>
           </MyJumbotron>
           <section
+            id="social-services"
             style={{
               backgroundImage: "url('/seo-service-bg.jpg')",
               padding: "100px 0px 80px",
@@ -206,9 +210,11 @@ export default function socialMediaMarketing() {
                 sure that our campaigns are continuously optimized and result in
                 profitable returns.
               </p>
+              <ScrollDown toScroll="#social-ads" />
             </Container>
           </section>
           <section
+            id="social-ads"
             style={{
               backgroundImage: "url('/e-commerce-service-bg.jpg')",
               padding: "100px 0px 80px",
@@ -228,6 +234,7 @@ export default function socialMediaMarketing() {
                 Services:
               </h2>
               <SocialAdsComp />
+              <DoMore title="Social media marketing and ads" />
             </Container>
           </section>
         </Layout>

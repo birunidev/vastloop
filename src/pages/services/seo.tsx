@@ -6,6 +6,8 @@ import { Container } from "react-bootstrap"
 import SeoHelp from "../../components/ServicesComp/SeoHelp"
 import SeoServiceComp from "../../components/ServicesComp/SeoServiceComp"
 import SEO from "../../components/seo"
+import DoMore from "../../components/UI/DoMore"
+import ScrollDown from "./../../components/UI/ScrollDown"
 
 export default function seo() {
   return (
@@ -40,13 +42,15 @@ export default function seo() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                We help you :
+                We help you:
               </p>
               <SeoHelp />
+              <ScrollDown toScroll="#seo-specialists" />
             </Container>
           </MyJumbotron>
 
           <section
+            id="seo-specialists"
             style={{
               backgroundImage: "url('/seo-service-bg.jpg')",
               padding: "100px 0px 80px",
@@ -69,9 +73,10 @@ export default function seo() {
                 <span className="d-lg-block">They are experts in :</span>
               </h2>
               <SeoServiceComp />
-              <div className="mt-5  text-white">
+              <ScrollDown toScroll="#seo-packages" />
+              <div className="mt-5 text-white">
                 <h3
-                  className="font-weight-bold h2 text-warning text-center"
+                  className="mt-3 font-weight-bold display-4 text-warning text-gagalin text-center"
                   data-sal="slide-up"
                   data-sal-delay="0"
                   data-sal-easing="ease-out"
@@ -80,45 +85,53 @@ export default function seo() {
                   SEO packages.
                 </h3>
                 <p
-                  className="mt-3 mb-5 text-white font-weight-600 text-center"
+                  className="mt-3 h4 text-white text-gagalin font-weight-600 text-center"
                   data-sal="slide-down"
                   data-sal-delay="0"
                   data-sal-easing="ease-out"
                   data-sal-duration="1000"
                 >
                   We bundle several SEO services together into a cost-effective
-                  and time-effective{" "}
-                  <span className="d-lg-block">
-                    approach to optimize your website.
-                  </span>
+                  and time-effective approach to optimize your website.
                 </p>
-                <div className="seo-all-blurb row justify-content-between flex-lg-row-reverse align-items-center text-white">
+                <div
+                  className="seo-all-blurb row mt-3 justify-content-between flex-lg-row-reverse align-items-center text-white"
+                  id="seo-packages"
+                >
                   <div className="col-md-6 col-lg-5">
                     <div
                       className="seo-all-blurb__img"
-                      data-sal="slide-left"
+                      data-sal="fade"
                       data-sal-delay="0"
                       data-sal-easing="ease-out"
-                      data-sal-duration="1000"
+                      data-sal-duration="200"
                     >
                       <img src="/revenue-bg.png" alt="All in SEO Background" />
                     </div>
                   </div>
                   <div
                     className="col-md-6 "
-                    data-sal="slide-right"
+                    data-sal="fade"
                     data-sal-delay="0"
                     data-sal-easing="ease-out"
-                    data-sal-duration="1000"
+                    data-sal-duration="200"
                   >
                     <ul className="mt-5 ml-4">
                       <li className="text-justify d-flex justify-content-between line-height-2 my-3">
                         <span>
-                          -Comprehensive analysis of your website,
-                          competition, and search engine visibility.
-                          - Usage of a variety of methods to obtain 
-                          the best keywords to drive quality traffic
-                          to your website.
+                          -Comprehensive analysis of your website, competition,
+                          and search engine visibility.
+                        </span>
+                        <img
+                          className="d-inline-block"
+                          src="/check.svg"
+                          alt="Check Icon"
+                        />
+                      </li>
+                      <li className="text-justify d-flex justify-content-between line-height-2 my-3">
+                        <span>
+                          - Usage of a variety of methods to obtain the best
+                          keywords to drive quality traffic to your website.
                         </span>
                         <img
                           className="d-inline-block"
@@ -149,8 +162,8 @@ export default function seo() {
                       </li>
                       <li className="line-height-2 my-3 d-flex justify-content-between">
                         <span>
-                          - SEO copywriting: reporting to meet your business goals
-                          and make wise decisions that improve the ROI.
+                          - SEO copywriting: reporting to meet your business
+                          goals and make wise decisions that improve the ROI.
                         </span>
                         <img src="/check.svg" alt="Check Icon" />
                       </li>
@@ -158,6 +171,7 @@ export default function seo() {
                   </div>
                 </div>
               </div>
+              <DoMore title="SEO" />
             </Container>
           </section>
         </Layout>

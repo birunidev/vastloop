@@ -5,6 +5,8 @@ import MyJumbotron from "../../components/MyJumbotron"
 import Media from "react-media"
 import ECommerceComp from "../../components/ServicesComp/ECommerceComp"
 import SEO from "../../components/seo"
+import DoMore from "./../../components/UI/DoMore"
+import ScrollDown from "../../components/UI/ScrollDown"
 
 export default function eCommerce() {
   return (
@@ -53,9 +55,8 @@ export default function eCommerce() {
                 data-sal-duration="1000"
                 style={{ marginTop: 60 }}
               >
-                Our <span className="text-warning">eCommerce</span> developments
-                services team <span className="d-lg-block"></span> will provide
-                you with:
+                Our <span className="text-warning">E-commerce</span> specialists{" "}
+                <span className="d-lg-block"></span> will provide you with:
               </p>
               <Row className="justify-content-between">
                 <Col
@@ -72,7 +73,7 @@ export default function eCommerce() {
                         matches.large ? "h4" : "h5"
                       } `}
                     >
-                      Customer insights merchandising strategy.
+                      Customer insights.
                     </p>
                   </div>
                 </Col>
@@ -134,14 +135,16 @@ export default function eCommerce() {
                         matches.large ? "h4" : "h5"
                       }`}
                     >
-                      Digital marketing strategy.
+                      Merchandising strategy.
                     </p>
                   </div>
                 </Col>
               </Row>
+              <ScrollDown toScroll="#e-commerce-service" />
             </Container>
           </MyJumbotron>
           <section
+            id="e-commerce-service"
             style={{
               backgroundImage: "url('/seo-service-bg.jpg')",
               padding: "100px 0px 80px",
@@ -160,6 +163,9 @@ export default function eCommerce() {
                 Our <span className="text-warning">E-commerce</span> Services.
               </h2>
               <ECommerceComp />
+              <div className="mt-5">
+                <DoMore title="E-commerce" />
+              </div>
             </Container>
           </section>
         </Layout>

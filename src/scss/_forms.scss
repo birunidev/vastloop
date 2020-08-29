@@ -11,13 +11,33 @@
   color: white !important;
 }
 .form-group-custom {
+  width: 90%;
+  margin: 20px auto;
+  @include large-tablet {
+    margin: 0px auto;
+  }
+}
+.form-group-custom select {
+  background: none;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-bottom: 1px solid white;
+  font-weight: 600;
   width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+
+  option {
+    background: black;
+  }
 }
 .form-group-custom .form-control-custom {
   display: block;
   width: 100%;
   padding: 10px 15px;
-  margin: 30px auto;
   background: none;
   border: none;
   color: white;
@@ -45,8 +65,12 @@
 }
 .get-started-btn {
   width: 80%;
-  padding: 10px 15px;
 
+  @include large-tablet {
+    width: 100%;
+  }
+
+  padding: 10px 15px;
   background: $warning;
   font-weight: bold;
   border: none;

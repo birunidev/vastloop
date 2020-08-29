@@ -5,7 +5,7 @@ let data = [
   {
     img: "2.jpg",
     name: "Jessy",
-    position: "Agency Founder and content writer.",
+    position: "Agency founder and content writer.",
   },
   {
     img: "1.jpg",

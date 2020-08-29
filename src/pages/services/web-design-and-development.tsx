@@ -8,6 +8,7 @@ import Media from "react-media"
 import { GLOBAL_MEDIA_QUERIES } from "./../../components/layout"
 import SEO from "../../components/seo"
 import DoMore from "../../components/UI/DoMore"
+import ScrollDown from "../../components/UI/ScrollDown"
 
 export default function webDesign() {
   return (
@@ -49,9 +50,11 @@ export default function webDesign() {
                 enable your brand to provide a unique, and positive experience
                 for your website visitors.
               </p>
+              <ScrollDown toScroll="#turn-into" />
             </Container>
           </MyJumbotron>
           <section
+            id="turn-into"
             style={{
               backgroundImage: "url('/how-website-bg.jpg')",
               padding: "100px 0px 80px",
@@ -75,9 +78,11 @@ export default function webDesign() {
                 ?
               </h2>
               <HowWebsiteComp />
+              <ScrollDown toScroll="#we-also" />
             </Container>
           </section>
           <section
+            id="we-also"
             style={{
               backgroundImage: "url('/website-features-bg.jpg')",
               padding: "100px 0px 80px",

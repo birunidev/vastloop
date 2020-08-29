@@ -4,7 +4,7 @@ export function BlurbCommerce({
   icon,
   title,
   text,
-  maxWidth,
+  maxWidth = "auto",
   lists,
   isECommerce,
 }) {

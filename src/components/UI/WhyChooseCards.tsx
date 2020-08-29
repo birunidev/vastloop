@@ -17,7 +17,7 @@ let whychooses = [
   {
     icon: "why-3.svg",
     text:
-      "You save money and time with us: we work with you to determine your marketing goals , then set your budget to your immediate needs. You can focus on other business tasks while making sure we are growing your brand.",
+      "You save money and time with us: we work with you to determine your marketing goals, then set your budget to your immediate needs. You can focus on other business tasks while making sure we are growing your brand.",
   },
   {
     icon: "why-4.svg",

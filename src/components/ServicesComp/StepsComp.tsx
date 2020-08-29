@@ -30,7 +30,7 @@ let steps = [
     icon: "blog.svg",
     title: "Go to market strategy",
     text:
-      "We have experts able to create a unique action plan that specifies how to reach your target customers: This includes marketing, a sales method, your ideal customer base, an attractive price, and the unique problem your product solves or improves",
+      "We have experts able to create a unique action plan that specifies how to reach your target customers: this includes marketing, a sales method, your ideal customer base, an attractive price, and the problem your product solves or improves.",
   },
   {
     icon: "support.svg",
@@ -40,44 +40,37 @@ let steps = [
   },
 ]
 
-export function StepCard({ icon, title, text, maxWidth = "100%" }) {
+export function StepCard({
+  icon,
+  title,
+  text,
+  maxWidth = "100%",
+  isPpc = false,
+}) {
   return (
     <div
       className="step-blurb mx-auto my-5 row "
       style={{ maxWidth: maxWidth }}
+      data-sal="slide-right"
+      data-sal-delay="0"
+      data-sal-easing="ease-out"
+      data-sal-duration="1000"
     >
-      <div
-        className="col-md-4"
-        data-sal="slide-up"
-        data-sal-delay="0"
-        data-sal-easing="ease-out"
-        data-sal-duration="1000"
-      >
+      <div className="col-md-4">
         <div className="step-blurb__img trans-scale cursor-pointer">
           <img src={`/${icon}`} alt={text + " icon"} />
         </div>
       </div>
-      <div
-        className="col-md-6"
-        data-sal="slide-up"
-        data-sal-delay="500"
-        data-sal-easing="ease-out"
-        data-sal-duration="1000"
-      >
+      <div className="col-md-6">
         <div className="step-blurb__detail ">
           <p className="h3 text-warning font-weight-bold text-center text-md-left">
-            {title}:
+            {title}
+            {isPpc ? null : ":"}
           </p>
           <p className="text-white line-height-2 text-justify h5">{text}</p>
         </div>
       </div>
-      <div
-        className="col-md-2"
-        data-sal="slide-up"
-        data-sal-delay="1000"
-        data-sal-easing="ease-out"
-        data-sal-duration="1000"
-      >
+      <div className="col-md-2">
         <img
           width={200}
           className="d-none d-md-block"

@@ -8,6 +8,8 @@ import Media from "react-media"
 import { GLOBAL_MEDIA_QUERIES } from "../../components/layout"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
+import DoMore from "./../../components/UI/DoMore"
+import ScrollDown from "../../components/UI/ScrollDown"
 
 export default function ppcMarketing() {
   return (
@@ -16,7 +18,7 @@ export default function ppcMarketing() {
         <Layout>
           <SEO
             title="Pay Per Click Marketing"
-            description="Whatever platform you advertise on , we will put your Ad in front of people who are most likely to be interested in your products or services. What we do : Vast loop uses PPC to allow brands get fast returs on investment (ROI). We have experts who can create campaigns in Google Ads, Bing Ads, social media, and more."
+            description="Whatever platform you advertise on, we will put your Ad in front of people who are most likely to be interested in your products or services. What we do: Vast loop uses PPC to allow brands get fast returs on investment (ROI). We have experts who can create campaigns in Google Ads, Bing Ads, social media, and more."
           />
           <MyJumbotron background="/ppc-bg.jpg">
             <Container>
@@ -33,7 +35,7 @@ export default function ppcMarketing() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                Pay Per Click Marketing.
+                Pay-Per-Click Marketing.
               </h1>
               <p
                 className={`${
@@ -48,9 +50,11 @@ export default function ppcMarketing() {
                 front of people who are most likely to be interested in your
                 products or services.
               </p>
+              <ScrollDown toScroll="#ppc-services" />
             </Container>
           </MyJumbotron>
           <section
+            id="ppc-services"
             style={{
               backgroundImage: "url('/ppc-service-bg.jpg')",
               padding: "100px 0px 80px",
@@ -60,15 +64,17 @@ export default function ppcMarketing() {
           >
             <Container>
               <p
-                className="h5 mt-3 mb-5 line-height-2 text-white  center-justified w-75 mx-auto"
+                className="h3 mt-3 mb-5 line-height-2 text-white text-gagalin center-justified w-75 mx-auto"
                 data-sal="slide-up"
                 data-sal-delay="0"
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                Vast loop uses PPC to allow brands get fast returs on investment
-                (ROI). We have experts who can create campaigns in Google Ads,
-                Bing Ads, social media, and more.
+                Vast loop uses PPC to allow brands get fast return on investment
+                (ROI). We have experts who can create campaigns{" "}
+                <span className="text-warning">
+                  in Google Ads, Bing Ads, social media, and more.
+                </span>
               </p>
               <h2
                 className="text-center font-weight-bold text-gagalin h1 text-white"
@@ -77,12 +83,14 @@ export default function ppcMarketing() {
                 data-sal-easing="ease-out"
                 data-sal-duration="1000"
               >
-                Our <span className="text-warning">PPC</span> Services.
+                Our <span className="text-warning">PPC</span> Services:
               </h2>
               <PPCComp />
+              <ScrollDown toScroll="#ppc-reporting" />
             </Container>
           </section>
           <section
+            id="ppc-reporting"
             style={{
               backgroundImage: "url('/ppc-reporting-bg.jpg')",
               padding: "100px 0px 80px",
@@ -115,12 +123,7 @@ export default function ppcMarketing() {
               </p>
               <PPCReportComp />
               <div className="text-center mt-4">
-                <Link
-                  to="/contact"
-                  className="btn btn-lg btn-warning font-weight-bold trans-scale"
-                >
-                  Get Started
-                </Link>
+                <DoMore title="Pay-per-click marketing" />
               </div>
             </Container>
           </section>

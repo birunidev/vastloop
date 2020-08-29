@@ -6,6 +6,7 @@ import StepsComp from "../../components/ServicesComp/StepsComp"
 import Media from "react-media"
 import SEO from "../../components/seo"
 import DoMore from "./../../components/UI/DoMore"
+import ScrollDown from "../../components/UI/ScrollDown"
 
 export default function brandStrategy() {
   return (
@@ -21,7 +22,7 @@ export default function brandStrategy() {
             title="Brand Stategy Implementation"
             description="Vast Loop can transform your business goals into a lively and colorful reality. By differentiating your brand from its competitors, and grabbing attention to its unique personality, we enable your company to inspire loyality, and credibility."
           />
-          <MyJumbotron background="/brand-strategy-bg.jpg">
+          <MyJumbotron background="/brand-strategy-bg.jpg" bgPosition="center">
             <Container>
               <h1
                 className={`${
@@ -61,9 +62,11 @@ export default function brandStrategy() {
                 attention to its unique personality, we enable your company to
                 inspire loyality, and credibility.
               </p>
+              <ScrollDown toScroll="#steps-to-success" />
             </Container>
           </MyJumbotron>
           <section
+            id="steps-to-success"
             style={{
               backgroundImage: "url('/team-bg.jpg')",
               padding: "100px 0px 150px",
