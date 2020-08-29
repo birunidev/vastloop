@@ -10,6 +10,7 @@ import ExpertiseCards from "../components/UI/ExpertiseCards"
 import WhyChooseCards from "../components/UI/WhyChooseCards"
 import GetStartedSection from "../components/Sections/GetStartedSection"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import Testimonials from "./../components/UI/Testimonials"
 
 const IndexPage = () => (
   <Layout>
@@ -93,6 +94,21 @@ const IndexPage = () => (
           Why <span className="text-warning">Choose us</span> ?
         </h3>
         <WhyChooseCards />
+      </Container>
+    </section>
+    <section
+      style={{
+        backgroundImage: "url('/testi-bg.jpg')",
+        padding: "100px 0px 150px",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
+      <Container>
+        <h3 className="text-center font-weight-bold text-gagalin h1 text-white">
+          Testimo<span className="text-warning">nials</span>
+        </h3>
+        <Testimonials />
       </Container>
     </section>
     <GetStartedSection />

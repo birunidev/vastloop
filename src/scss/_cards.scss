@@ -266,3 +266,26 @@
     width: 100%;
   }
 }
+
+.testi-card {
+  min-height: 300px;
+  @include tablet {
+    min-height: 600px;
+  }
+  @include large-tablet {
+    min-height: 600px;
+  }
+}
+
+.card-logo-wrapper {
+  max-width: 60%;
+  margin: 0px auto;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
