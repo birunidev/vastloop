@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react"
 import { Card, Row, Col } from "react-bootstrap"
 import API from "./../utils/api"
+import { Swiper, SwiperSlide } from "swiper/react"
+import "swiper/swiper.scss"
+import "swiper/components/navigation/navigation.scss"
+import "swiper/components/pagination/pagination.scss"
 
 function TestiCard({ img_id, name, content }) {
   const [img, setImg] = useState<any>("/logo-placeholder.svg")
@@ -23,8 +27,10 @@ function TestiCard({ img_id, name, content }) {
         <img src={img} alt={`${name} Logo`} />
       </div>
       <Card.Body>
-        <p className="font-weight-bold h3">{name}</p>
-        <Card.Text className="text-justify">{content}</Card.Text>
+        <p className="font-weight-bold text-gagalin h5">{name}</p>
+        <Card.Text className="text-justify" style={{ fontSize: "18px" }}>
+          {content}
+        </Card.Text>
       </Card.Body>
     </Card>
   )
@@ -45,12 +51,16 @@ export default function Testimonials() {
   }, [])
 
   return (
-    <Row>
-      {isError && <p>Error getting testimonials</p>}
+    <Row className="mt-5 justify-content-between">
+      {isError && (
+        <p className="text-white text-center mt-5">
+          Error getting testimonials
+        </p>
+      )}
       {testi.length > 0 &&
         testi.map(test => {
           return (
-            <Col md={6}>
+            <Col md={6} lg={3} xs={4}>
               <TestiCard
                 img_id={test.acf.company_logo}
                 name={test.acf.company_name}

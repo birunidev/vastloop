@@ -273,14 +273,14 @@
     min-height: 600px;
   }
   @include large-tablet {
-    min-height: 600px;
+    min-height: 650px;
   }
 }
 
 .card-logo-wrapper {
-  max-width: 60%;
+  max-width: 90%;
   margin: 0px auto;
-  height: 230px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;

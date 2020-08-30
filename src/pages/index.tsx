@@ -16,6 +16,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Home"
+      keywords="Vast loop, Vast loop agency based in Bali, Digital Marketing Agency, Digital Marketing services in Bali"
       description="If your brand still does not meet the level of success and brand awarness you want, Vast loop agency is the lifeblood for your business. We are a full-service agency that provides clients from all around the world with unique and powerful strategies that can transform their companies."
     />
     <VideoBackground video="jumbotron_1.mp4">
@@ -104,12 +105,12 @@ const IndexPage = () => (
         backgroundSize: "cover",
       }}
     >
-      <Container>
+      <div style={{ width: "85%" }} className="mx-auto">
         <h3 className="text-center font-weight-bold text-gagalin h1 text-white">
-          Testimo<span className="text-warning">nials</span>
+          Testimo<span className="text-warning">nials.</span>
         </h3>
         <Testimonials />
-      </Container>
+      </div>
     </section>
     <GetStartedSection />
   </Layout>
