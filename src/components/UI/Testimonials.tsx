@@ -43,7 +43,6 @@ export default function Testimonials() {
     API.getRequest("testimonials")
       .then(res => {
         setTesti(res)
-        console.log(res)
       })
       .catch(err => {
         setError(true)
@@ -60,7 +59,7 @@ export default function Testimonials() {
       {testi.length > 0 &&
         testi.map(test => {
           return (
-            <Col md={6} lg={3} xs={4}>
+            <Col key={test.id} md={6} lg={3} xs={4}>
               <TestiCard
                 img_id={test.acf.company_logo}
                 name={test.acf.company_name}

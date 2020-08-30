@@ -16,7 +16,6 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Home"
-      keywords="Vast loop, Vast loop agency based in Bali, Digital Marketing Agency, Digital Marketing services in Bali"
       description="If your brand still does not meet the level of success and brand awarness you want, Vast loop agency is the lifeblood for your business. We are a full-service agency that provides clients from all around the world with unique and powerful strategies that can transform their companies."
     />
     <VideoBackground video="jumbotron_1.mp4">

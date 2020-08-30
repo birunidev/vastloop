@@ -9,8 +9,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import { useState } from "react"
+import { useEffect } from "react"
+import API from "./utils/api"
 
-function SEO({ description, lang, meta, title, keywords = "" }) {
+function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -26,6 +29,20 @@ function SEO({ description, lang, meta, title, keywords = "" }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+
+  const [keywords, setKeywords] = useState("")
+
+  useEffect(() => {
+    API.getRequest("seo_keywords")
+      .then(res => {
+        console.log(res)
+        setKeywords(res[0].acf.keywords)
+      })
+      .catch(err => {
+        console.log(err)
+        setKeywords("")
+      })
+  }, [])
 
   return (
     <Helmet
